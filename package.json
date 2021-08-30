@@ -1,0 +1,32 @@
+{
+  "name": "acm_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "engines": {
+    "node": "14.15.4"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acmmjcet/acm-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "homepage": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0"
+  }
+}
