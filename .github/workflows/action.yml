@@ -7,9 +7,8 @@ on:
     paths-ignore:
       - "**.md"
   push:
-    branches:
-      - master
-      - Development
+  push:
+    branches: [master, Development, Testings]
     paths-ignore:
       - "**.md"
 
