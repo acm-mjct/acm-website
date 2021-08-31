@@ -6,7 +6,7 @@ on:
   pull_request:
     paths-ignore:
       - "**.md"
-  push:
+
   push:
     branches: [master, Development, Testings]
     paths-ignore:
