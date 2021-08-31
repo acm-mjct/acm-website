@@ -2,8 +2,5 @@
  echo Starting...
 :A
 node --trace-warnings server/index.js
+npm start
 goto :A
-
-
-if /p input= 
-pause
