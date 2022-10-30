@@ -30,16 +30,16 @@ const Main1 = () => {
         <div className='motion-safe:animate h-8 w-8 mx-auto mt-8 motion-safe:animate-ping bg-gradient-to-tl from-indigo-600 to-navy rounded-lg sm:visible rotate-45 '></div>
         <div className='motion-safe:animate h-8 w-8 mx-auto mt-8 motion-safe:animate-ping bg-gradient-to-tl from-indigo-600 to-navy rounded-lg sm:visible rotate-45 '></div>
       </div> */}
-      <div className='container mx-auto w-60 h-20 md:w-96 md:h-60 flex justify-center'>
-      <video src="/vid6.mp4" autoPlay loop muted className="bg-inherit"></video>
-      </div>
-      {/* <h1 className='text-center   text-5xl text-black  font-lato '>We Are ACM</h1> */}
-      <div className='motion-safe:animate relative mx-auto mt-5 w-4/5 bg-navy h-96 mb-4 rounded-xl overflow-hidden'>
+      {/* <div className='h-24 bg-yellow-600 w-full mt-3 flex items-center justify-center'>
+      <h1 className='text-center  text-5xl font-extrabold text-wheaty '>We Are ACM</h1>
+      </div> */}
+      
+      <div className='motion-safe:animate relative mx-auto mt-5 w-5/6 md:w-3/4  h-48 md:h-96 mb-4 rounded-xl overflow-hidden'>
         <div>
 
           {/* <Image src='/media/1.jpeg' width={200} height={180} className="opacity-30 hover:opacity-75 cursor-pointer hover:scale-150 animate-ping" />
           <Image src='/media/3.jpeg' width={250} height={180} className="opacity-30" /> */}
-          <video src="/project.mp4" autoPlay loop muted className="bg-inherit overflow-hidden h-full"></video>
+          <video src="/hm.mp4" autoPlay loop muted className="bg-inherit overflow-hidden h-full"></video>
 
         </div>
         
