@@ -2,20 +2,21 @@ import React , {Fragment} from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
+// import {Button} from '@material-ui/core'
 
 const navigation = [
     { name: 'Home', href: '/', current: false },
     { name: 'About Us', href: 'about', current: false },
-    { name: 'Events', href: '#', current: false },
+    { name: 'Events', href: 'events', current: false },
     { name: 'Membership', href: '#', current: false },
   ]
   function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
   }
-const Navbar = () => {
+const Navbar = (props) => {
   return (
-    <div>
-      <Disclosure as="nav" className="bg-inherit mt-2">
+    <div className={`navbar sticky top-0 z-50`}>
+      <Disclosure as="nav" className="bg-wheaty ">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -34,13 +35,13 @@ const Navbar = () => {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="block h-14 w-auto lg:hidden"
-                    src="/two.png"
+                    className="block h-16 w-auto lg:hidden"
+                    src="/acmdarklogo.png"
                     alt="Your Company"
                   />
                   <img
                     className="hidden h-16 cursor-pointer w-auto lg:block"
-                    src="/two.png"
+                    src="/acmdarklogo.png"
                     alt="Your Company"
                   />
                 </div>
@@ -53,7 +54,7 @@ const Navbar = () => {
                         
                         className={classNames(
                           item.current ? 'bg-gray-900 text-white' : 'text-navy font-bold hover:bg-navy hover:text-wheaty',
-                          'px-3 py-2 my-3 rounded-full text-sm font-medium'
+                          'px-3 py-2 my-3 rounded-full text-sm  font-bold'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
@@ -80,7 +81,7 @@ const Navbar = () => {
                   <div>
                     <Menu.Button className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 ">
                       <span className="sr-only">Open user menu</span>
-                      <div className='bg-navy py-1.5 px-4 rounded-full text-wheaty font-bold hover:bg-wheaty hover:text-navy hover:scale-x-110'><p className=''>Login</p></div>
+                      <div className='bg-navy py-1.5 px-4 rounded-full text-wheaty font-bold hover:bg-wheaty hover:text-navy hover:scale-x-110'>Dark</div>
                     </Menu.Button>
                   </div>
                   <Transition
