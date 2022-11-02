@@ -16,7 +16,7 @@ const Navbar = () => {
           <li className='list-none inline-block ml-12 font-bold text-white cursor-pointer'><Link className='cursor-pointer' href="/">Home</Link></li>
           <li className='list-none inline-block ml-12 font-bold text-white cursor-pointer'><Link href="/about">About Us</Link></li>
           <li className='list-none inline-block ml-12 font-bold text-white cursor-pointer'><Link href="/events">Events</Link></li>
-          <li className='list-none inline-block ml-12 font-bold text-white cursor-pointer'><Link href="">Contact</Link></li>
+                           <li className='list-none inline-block ml-12 font-bold text-white cursor-pointer'><Link href="/components/Footer.js">Contact</Link></li>
         </ul>
       </nav>
     </div>
