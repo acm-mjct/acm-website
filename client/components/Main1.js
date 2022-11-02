@@ -8,7 +8,7 @@ const Main1 = () => {
     <div>
      
       
-      <div className='motion-safe:animate relative mx-auto object-contain    mb-4  overflow-hidden'>
+      {/* <div className='motion-safe:animate relative mx-auto object-contain    mb-4  overflow-hidden'>
         <div className='h-24 flex flex-col lg:flex-row items-center justify-center  bg-navy'>
         
               <h1 className='text-wheaty text-center pb-4 lg:pb-0 px-0 lg:px-11   text-xl md:text-2xl font-bold'>Register here for Hello World</h1>
@@ -29,7 +29,7 @@ const Main1 = () => {
         </div>
         
 
-      </div>
+      </div> */}
   
     </div>
     // <div>

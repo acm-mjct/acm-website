@@ -5,7 +5,7 @@ import Link from 'next/link'
 const events = () => {
   return (
     <div className='text-navy mb-10 cursor-pointer '>
-      <div className='cursor-pointer  hover:bg-wheaty mt-6 text-2xl md:text-3xl lg:text-4xl text-center  px-5 py-3 text-yellow-600 mx-auto w-1/2 lg:w-1/3 rounded-full  tracking-wide'>
+      <div className='cursor-pointer  hover:bg-wheaty mt-6 text-2xl md:text-3xl lg:text-4xl text-center  px-5 py-3 text-yellow-500 mx-auto w-1/2 lg:w-1/3 rounded-full  tracking-wide'>
         <h1 className='font-extrabold '>Previous Events </h1></div>
       <Link href="/eventPage/wdbt">
         <div className="container mx-auto mt-7 flex flex-col md:flex-row w-4/5  md:w-3/4 lg:w-2/3 bg-inherit rounded-xl  md:border-solid md:border-2 hover:scale-105 hover:transition hover:ease-out 
