@@ -1,0 +1,26 @@
+{
+	"root": true,
+	"extends": [
+		"mahir/common",
+		"mahir/node",
+		"mahir/typescript",
+		"mahir/react",
+		"mahir/next",
+		"mahir/edge",
+		"mahir/prettier"
+	],
+	"ignorePatterns": ["**/dist/*", "next-env.d.ts", "next.config.js"],
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	},
+	"rules": {
+		"react/react-in-jsx-scope": "off",
+		"react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
+		"no-console": [
+			"error",
+			{
+				"allow": ["error", "info", "warn"]
+			}
+		]
+	}
+}

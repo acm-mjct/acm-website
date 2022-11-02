@@ -1,32 +1,33 @@
 {
-  "name": "acm_website",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server/index.js",
-  "engines": {
-    "node": "14.15.4"
-  },
-  "scripts": {
-    "start": "node server/index.js",
-    "build": "cd client && npm install && npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/acm-mjct/acm-website.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {},
-  "homepage": "",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.12.13",
-    "next": "^13.0.0",
-    "path": "^0.12.7",
-    "react-redux": "^7.2.4",
-    "redux": "^4.1.0"
-  }
+	"name": "acm-website",
+	"scripts": {
+		"generate:css": "unocss 'src/**/*.tsx' --out-file ./src/styles/unocss.css",
+		"dev": "concurrently 'yarn generate:css --watch' 'next dev'",
+		"build": "yarn generate:css && next build",
+		"start": "next start -p 3080",
+		"lint": "next lint",
+		"format": "prettier --cache --write src"
+	},
+	"dependencies": {
+		"framer-motion": "^7.6.4",
+		"next": "^13.0.1",
+		"nextjs-progressbar": "^0.0.16",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"packageManager": "yarn@3.2.4",
+	"devDependencies": {
+		"@types/eslint": "^8",
+		"@types/node": "18.11.9",
+		"@types/prettier": "^2",
+		"@types/react": "18.0.24",
+		"@unocss/cli": "^0.46.3",
+		"@unocss/reset": "^0.46.3",
+		"concurrently": "^7.5.0",
+		"eslint": "^8.26.0",
+		"eslint-config-mahir": "^0.0.13",
+		"prettier": "^2.7.1",
+		"typescript": "4.8.4",
+		"unocss": "^0.46.3"
+	}
 }
