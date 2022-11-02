@@ -8,22 +8,22 @@ const Main2 = () => {
           We Are ACM
         </h1>
 
-        <div className='h-32 w-32 bg-inherit rounded-full mr-40 -mb-20 z-20 overflow-hidden '>
+        <div className='h-32 w-32 bg-inherit rounded-full mr-40 -mb-20  overflow-hidden '>
           <img src="/media/imgsss.png" alt="" className=" max-w-md h-44 mb-5" />
         </div>
-        <div className='h-24 w-24 bg-inherit rounded-full ml-52 -mb-20 z-40 overflow-hidden'>
+        <div className='h-24 w-24 bg-inherit rounded-full ml-52 -mb-20  overflow-hidden'>
           <img src="/media/imgaa.png" alt="" className=" max-w-md h-36 mb-5" />
         </div>
         <div className='overflow-hidden flex justify-center items-center bg-inherit w-60 h-60 rounded-full  '>
-          <img src="/media/full.png" alt="" className=" max-w-md h-60 z-30" />
+          <img src="/media/full.png" alt="" className=" max-w-md h-60 " />
         </div>
         <div className='h-32 w-32 bg-inherit rounded-full ml-52 -mt-14 overflow-hidden '>
           <img src="/media/10.png" alt="" className=" max-w-md h-32" />
         </div>
-        <div className='h-40 w-40 bg-inherit rounded-full -ml-96 overflow-hidden -mt-60 z-40 invisible md:visible'>
+        <div className='h-40 w-40 bg-inherit rounded-full -ml-96 overflow-hidden -mt-60  invisible md:visible'>
           <img src="/media/4.jpeg" alt="" className=" max-w-md h-60" />
         </div>
-        <div className='h-28 w-28 bg-inherit rounded-full mr-44 overflow-hidden z-40 '>
+        <div className='h-28 w-28 bg-inherit rounded-full mr-44 overflow-hidden  '>
           <img src="/media/IMG_1788.png" alt="" className=" max-w-md h-44" />
         </div>
 
