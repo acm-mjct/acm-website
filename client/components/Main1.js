@@ -1,45 +1,30 @@
 import React from 'react'
 import Image from 'next/image'
-// import Slider from "image-slider";
-// import "@madzadev/image-slider/dist/index.css";
+
 
 const Main1 = () => {
-  // const images = [
-  //   "https://images.unsplash.com/photo-1516655855035-d5215bcb5604?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60",
-  //   "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60",
-  //   "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60",
-  //   "https://images.unsplash.com/photo-1458668383970-8ddd3927deed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60"
-  // ];
+
   return (
     <div>
-      {/* <div className=' container mx-auto flex-wrap  inline-flex'>
-        <div className='container overflow-hidden motion-safe:animate h-8 w-8 mx-auto mt-8 motion-safe:animate-ping bg-gradient-to-tl from-indigo-600 to-navy rounded-lg rotate-45'>
-          <div className='h-8 w-8 mx-auto mt-8  bg-gradient-to-tl from-indigo-600 to-navy rounded-lg rotate-45'></div>
-        </div>
-        <div className='flex h-8 w-8 mx-auto mt-8 motion-safe:animate-ping bg-gradient-to-tl from-indigo-600 to-navy rounded-lg rotate-45'>
-          <div className=' h-8 w-8 mx-auto mt-8 bg-gradient-to-tl from-indigo-600 to-navy rounded-lg rotate-45'>
-
-          </div>
-        </div>
-        <div className='motion-safe:animate h-8 w-8 mx-auto mt-8 motion-safe:animate-ping bg-gradient-to-tl from-indigo-600 to-navy rounded-lg rotate-45'></div>
-        <div className='motion-safe:animate h-8 w-8 mx-auto mt-8 motion-safe:animate-ping bg-gradient-to-tl from-indigo-600 to-navy rounded-lg rotate-45'></div>
-        <div className='motion-safe:animate h-8 w-8 mx-auto mt-8 motion-safe:animate-ping bg-gradient-to-tl from-indigo-600 to-navy rounded-lg sm:visible rotate-45 '></div>
-        <div className='motion-safe:animate h-8 w-8 mx-auto mt-8 motion-safe:animate-ping bg-gradient-to-tl from-indigo-600 to-navy rounded-lg sm:visible  rotate-45'></div>
-        <div className='motion-safe:animate h-8 w-8 mx-auto mt-8 motion-safe:animate-ping bg-gradient-to-tl from-indigo-600 to-navy rounded-lg sm:visible  rotate-45'></div>
-        <div className='motion-safe:animate h-8 w-8 mx-auto mt-8 motion-safe:animate-ping bg-gradient-to-tl from-indigo-600 to-navy rounded-lg sm:visible rotate-45 '></div>
-        <div className='motion-safe:animate h-8 w-8 mx-auto mt-8 motion-safe:animate-ping bg-gradient-to-tl from-indigo-600 to-navy rounded-lg sm:visible rotate-45 '></div>
-        <div className='motion-safe:animate h-8 w-8 mx-auto mt-8 motion-safe:animate-ping bg-gradient-to-tl from-indigo-600 to-navy rounded-lg sm:visible rotate-45 '></div>
-      </div> */}
-      {/* <div className='h-24 bg-yellow-600 w-full mt-3 flex items-center justify-center'>
-      <h1 className='text-center  text-5xl font-extrabold text-wheaty '>We Are ACM</h1>
-      </div> */}
+     
       
-      <div className='motion-safe:animate relative mx-auto mt-5 w-5/6 md:w-3/4  h-48 md:h-96 mb-4 rounded-xl overflow-hidden'>
+      <div className='motion-safe:animate relative mx-auto object-contain    mb-4  overflow-hidden'>
+        <div className='h-24 flex flex-col lg:flex-row items-center justify-center  bg-navy'>
+        
+              <h1 className='text-wheaty text-center pb-4 lg:pb-0 px-0 lg:px-11   text-xl md:text-2xl font-bold'>Register here for Hello World</h1>
+              <button
+                    type="button"
+                    className="rounded-xl bg-yellow-500 p-2 text-navy hover:text-navy hover:bg-wheaty mr-3 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                  >
+                    <span className="sr-only">registration</span>
+                    <p className='font-bold'>Register Here</p>
+                  </button>
+                 
+        </div>
         <div>
 
-          {/* <Image src='/media/1.jpeg' width={200} height={180} className="opacity-30 hover:opacity-75 cursor-pointer hover:scale-150 animate-ping" />
-          <Image src='/media/3.jpeg' width={250} height={180} className="opacity-30" /> */}
-          <video src="/hm.mp4" autoPlay loop muted className="bg-inherit overflow-hidden h-full"></video>
+         
+          <video src="/project.mp4" autoPlay loop muted className="bg-inherit overflow-hidden h-full"></video>
 
         </div>
         
