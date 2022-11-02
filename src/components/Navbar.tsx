@@ -41,7 +41,7 @@ export default function Navbar() {
 
 	return (
 		<div className="bg-[#08090d] w-full">
-			<div className="w-full py-2 px-4 z-100 absolute lg:fixed lg:backdrop-filter lg:backdrop-blur-2xl ">
+			<div className="w-full py-2 px-4 z-100 absolute lg:fixed lg:backdrop-filter lg:backdrop-blur-1xl ">
 				<div className="mx-auto max-w-8xl">
 					<div className="flex items-center justify-between">
 						<div className="flex items-center">
