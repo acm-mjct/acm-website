@@ -1,12 +1,11 @@
+import Footer from '@components/Footer';
+import Navbar from '@components/Navbar';
 import { AnimatePresence } from 'framer-motion';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import NextNProgress from 'nextjs-progressbar';
 // import { ToastContainer } from 'react-toastify';
 // import 'react-toastify/dist/ReactToastify.css';
-
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
 
 import type { AppProps } from 'next/app';
 

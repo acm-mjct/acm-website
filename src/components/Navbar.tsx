@@ -15,33 +15,33 @@ export default function Navbar() {
 		},
 		{
 			name: 'About',
-			path: '#about',
-		},
-		{
-			name: 'Events',
-			path: '/events',
-		},
-		{
-			name: 'Snapshots',
-			path: '/snapshots',
+			path: '/#about',
 		},
 		{
 			name: 'Team',
 			path: '/team',
 		},
+		// {
+		// 	name: 'Events',
+		// 	path: '/events',
+		// },
 		{
-			name: 'Contact',
-			path: '/contact',
+			name: 'Snapshots',
+			path: '/snapshots',
 		},
-		{
-			name: 'Register',
-			path: '/register',
-		},
+		// {
+		// 	name: 'Contact',
+		// 	path: '/contact',
+		// },
+		// {
+		// 	name: 'Register',
+		// 	path: '/register',
+		// },
 	];
 
 	return (
 		<div className="bg-[#08090d] w-full">
-			<div className="w-full py-2 px-4 z-100 absolute lg:fixed lg:backdrop-filter lg:backdrop-blur-1xl ">
+			<div className="w-full py-2 px-4 z-100 absolute lg:fixed lg:backdrop-filter lg:backdrop-blur-2xl ">
 				<div className="mx-auto max-w-8xl">
 					<div className="flex items-center justify-between">
 						<div className="flex items-center">
@@ -57,7 +57,7 @@ export default function Navbar() {
 							</Link>
 							<div className="flex font-bold font-inter space-x-0 pl-4 text-light-900 lt-lg:hidden ">
 								{links.map((link, index) =>
-									link.path.startsWith('#') ? (
+									link.path.startsWith('/#') ? (
 										<a href={link.path} key={index}>
 											<div className="cursor-pointer py-2 px-4 hover:underline- hover:text-light-400 hover:bg-true-gray-600/90 hover:rounded ">
 												{link.name}
