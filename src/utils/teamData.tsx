@@ -8,11 +8,11 @@ const gameArtistBadge: BadgeData = {
 	icon: 'https://cdn.discordapp.com/role-icons/874840760585969705/88cef2e316f78cb983f0503c87510883.png',
 };
 
-const webDeveloperBadge: BadgeData = {
-	color: 'green',
-	text: 'Web Developer',
-	icon: <FaCode className="-mt-1" size={15} />,
-};
+// const webDeveloperBadge: BadgeData = {
+// 	color: 'green',
+// 	text: 'Web Developer',
+// 	icon: <FaCode className="-mt-1" size={15} />,
+// };
 
 export const seniorData: TeamCardProps[] = [
 	{
@@ -44,7 +44,7 @@ export const seniorData: TeamCardProps[] = [
 		],
 	},
 	{
-		username: 'Haseeb',
+		username: 'Haseeb Khan',
 		avatar: '/senior/has.webp',
 		socialMedia: [
 			{
@@ -72,7 +72,7 @@ export const seniorData: TeamCardProps[] = [
 		],
 	},
 	{
-		username: 'AR',
+		username: 'Syed Abdul Rahman',
 		avatar: 'https://avatars.githubusercontent.com/u/69213593',
 		socialMedia: [
 			{
@@ -99,169 +99,137 @@ export const seniorData: TeamCardProps[] = [
 			},
 		],
 	},
-];
-
-export const leadData: TeamCardProps[] = [
 	{
-		username: 'Akaimnky',
-		avatar: 'https://cdn.discordapp.com/avatars/537619455409127442/91559c151e21b966d1058a50821f71e5.webp',
+		username: 'Maleha Ansari',
+		avatar: '/senior/maleha.png',
 		socialMedia: [
 			{
-				icon: <FaDiscord size={20} />,
-				link: 'https://discord.com/users/537619455409127442',
-				tooltip: 'Akaimnky#6850',
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.linkedin.com/in/maleha-ansari-035bc/',
+				tooltip: 'Syeda Maheen',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.instagram.com/maleha_07/',
+				tooltip: 'Maleha Ansari',
 			},
 		],
 		badges: [
 			{
 				color: 'cyan',
-				text: 'Support Lead',
-				icon: 'https://cdn.discordapp.com/role-icons/868429437044154399/60cb684efa0d979423c2e9323f558c0a.png',
+				text: 'Secretary',
+				icon: <FaCode className="-mt-1" size={15} />,
 			},
 		],
 	},
 	{
-		username: 'Yorki',
-		avatar: 'https://cdn.discordapp.com/avatars/606379671851892737/9588e32f7aee6e2483aa4302d2b92da3.webp',
+		username: 'Maheen',
+		avatar: '/senior/maheen.png',
 		socialMedia: [
 			{
-				icon: <FaDiscord size={20} />,
-				link: 'https://discord.com/users/606379671851892737',
-				tooltip: 'Yorki#6704',
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.linkedin.com/in/syeda-maheen/',
+				tooltip: 'Syeda Maheen',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.instagram.com/maaheeenx/',
+				tooltip: 'Syeda Maheen',
 			},
 		],
 		badges: [
 			{
-				color: 'teal',
-				text: 'Card Lead',
-				icon: 'https://cdn.discordapp.com/role-icons/868102246397792296/49e7503b834647222cd00519e757ae6c.png',
+				color: 'cyan',
+				text: 'Treasurer',
+				icon: <FaCode className="-mt-1" size={15} />,
 			},
 		],
 	},
 	{
-		username: 'Gojo Jojo',
-		avatar: 'https://cdn.discordapp.com/avatars/516896190416289802/f62fdf0dd87da7465a05d4fa510ad86d.webp',
+		username: 'Maryum Urooj',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
 		socialMedia: [
 			{
-				icon: <FaDiscord size={20} />,
-				link: 'https://discord.com/users/516896190416289802',
-				tooltip: 'Gojo Jojo | The Always Pog#2811',
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.linkedin.com/in/maryum-urooj-ahmed-9b463a214/',
+				tooltip: 'Maryum Urooj',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.instagram.com/perksofbeingmaryum/',
+				tooltip: 'Maryum Urooj',
 			},
 		],
 		badges: [
 			{
-				color: 'pink',
-				text: '3D Lead',
-				icon: 'https://cdn.discordapp.com/role-icons/1003184212997832714/d40e503aa52c94b26317fb24e3d394c3.png',
+				color: 'cyan',
+				text: 'Internal Affairs',
+				icon: <FaCode className="-mt-1" size={15} />,
 			},
 		],
 	},
 	{
-		username: 'raphtalia',
-		avatar: 'https://cdn.discordapp.com/avatars/832631730837782578/bb726cae719ae5f2bbb11d72749f35f5.webp',
+		username: 'Syed Rafey Ahmed',
+		avatar:
+			'https://media-exp1.licdn.com/dms/image/C4D03AQGGKhJ0qWGEyw/profile-displayphoto-shrink_400_400/0/1655557395072?e=1674691200&v=beta&t=w2foniAsWYoVINi7wmF11ByjVkbN9HzsZCB1Qsqfre0',
 		socialMedia: [
 			{
-				icon: <FaDiscord size={20} />,
-				link: 'https://discord.com/users/832631730837782578',
-				tooltip: 'raphtalia#0290',
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.linkedin.com/in/syed-rafey-ahmed-2b958b195/',
+				tooltip: 'Syed Rafey Ahmed',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.instagram.com/rafeyahmed_/',
+				tooltip: 'Syed Rafey Ahmed',
 			},
 		],
 		badges: [
 			{
-				color: 'pink',
-				text: '3D Lead',
-				icon: 'https://cdn.discordapp.com/role-icons/1003184212997832714/d40e503aa52c94b26317fb24e3d394c3.png',
-			},
-		],
-	},
-	{
-		username: '金一',
-		avatar: 'https://cdn.discordapp.com/avatars/452490042028589057/6e564f66c5a55dc9359d9cb220a35308.webp',
-		socialMedia: [
-			{
-				icon: <FaDiscord size={20} />,
-				link: 'https://discord.com/users/452490042028589057',
-				tooltip: '金一#2121',
-			},
-		],
-		badges: [
-			{
-				color: 'yellow',
-				text: 'GIF Lead',
-				icon: 'https://cdn.discordapp.com/role-icons/1003184216982429706/59556f1550758b4d40bea3a53bba10cf.png',
-			},
-		],
-	},
-	{
-		username: '♚𝐌𝐎𝐌𝐌𝐘♚',
-		avatar: 'https://cdn.discordapp.com/avatars/586541677934542868/520841b7712e33620333ef4ece1351b9.webp',
-		socialMedia: [
-			{
-				icon: <FaDiscord size={20} />,
-				link: 'https://discord.com/users/586541677934542868',
-				tooltip: '♚𝐌𝐎𝐌𝐌𝐘♚#1215',
-			},
-		],
-		badges: [
-			{
-				color: 'grape',
-				text: 'Custom Lead',
-				icon: 'https://cdn.discordapp.com/role-icons/1003184219717107802/9459064c00c33e444d678efa3cc5b38c.png',
+				color: 'cyan',
+				text: 'Advisor',
+				icon: <FaCode className="-mt-1" size={15} />,
 			},
 		],
 	},
 ];
 
+export const leadData: TeamCardProps[] = [
+	{
+		username: 'TEST PROFILE',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaDiscord size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaTwitter size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+];
+
 export const helperData: TeamCardProps[] = [
 	{
-		username: 'elle',
-		avatar: 'https://cdn.discordapp.com/avatars/699595616233193566/51af9d865871c5b73697ac010958cd3a.webp',
+		username: 'TEST PROFILE',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
 		socialMedia: [
 			{
 				icon: <FaDiscord size={20} />,
-				link: 'https://discord.com/users/699595616233193566',
-				tooltip: 'elle#0184',
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
 			},
 			{
 				icon: <FaTwitter size={20} />,
-				link: 'https://twitter.com/Dan__i__elle',
-				tooltip: 'Dan__i__elle',
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
 			},
 		],
 		badges: [gameArtistBadge],
-	},
-	{
-		username: '.fuyu',
-		avatar: 'https://cdn.discordapp.com/avatars/360956108476514311/2c9aa9bbacc8c6c6f575ddd02957fb8c.webp',
-		socialMedia: [
-			{
-				icon: <FaDiscord size={20} />,
-				link: 'https://discord.com/users/360956108476514311',
-				tooltip: '.fuyu#9256',
-			},
-			{
-				icon: <FaTwitter size={20} />,
-				link: 'https://twitter.com/Fuyutsuki11',
-				tooltip: 'Fuyutsuki11',
-			},
-		],
-		badges: [gameArtistBadge],
-	},
-	{
-		username: 'Frezz1ck </>',
-		avatar: 'https://avatars.githubusercontent.com/u/84974655',
-		socialMedia: [
-			{
-				icon: <FaGithub size={20} />,
-				link: 'https://github.com/nazish-16',
-				tooltip: 'nazish-16',
-			},
-			{
-				icon: <FaDiscord size={20} />,
-				link: 'https://discord.com/users/775387817085108235',
-				tooltip: 'Frezz1ck </>#9673',
-			},
-		],
-		badges: [webDeveloperBadge],
 	},
 ];

@@ -4,7 +4,8 @@
 		"generate:css": "unocss 'src/**/*.tsx' --out-file ./src/styles/unocss.css",
 		"dev": "concurrently 'yarn generate:css --watch' 'next dev'",
 		"build": "yarn generate:css && next build",
-		"start": "next start -p 3080",
+		"start": "NODE_ENV=production node cpanel.js",
+		"pro:start": "next start -p 3080",
 		"lint": "next lint",
 		"format": "prettier --cache --write src"
 	},
