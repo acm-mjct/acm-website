@@ -11,7 +11,7 @@ const gameArtistBadge: BadgeData = {
 // const webDeveloperBadge: BadgeData = {
 // 	color: 'green',
 // 	text: 'Web Developer',
-// 	icon: <FaCode className="-mt-1" size={15} />,
+// 	icon: <FaCode size={15} />,
 // };
 
 export const seniorData: TeamCardProps[] = [
@@ -95,7 +95,7 @@ export const seniorData: TeamCardProps[] = [
 			{
 				color: 'cyan',
 				text: 'Tech Captain',
-				icon: <FaCode className="-mt-1" size={15} />,
+				icon: <FaCode size={15} />,
 			},
 		],
 	},
@@ -118,7 +118,7 @@ export const seniorData: TeamCardProps[] = [
 			{
 				color: 'cyan',
 				text: 'Secretary',
-				icon: <FaCode className="-mt-1" size={15} />,
+				icon: <FaCode size={15} />,
 			},
 		],
 	},
@@ -141,7 +141,7 @@ export const seniorData: TeamCardProps[] = [
 			{
 				color: 'cyan',
 				text: 'Treasurer',
-				icon: <FaCode className="-mt-1" size={15} />,
+				icon: <FaCode size={15} />,
 			},
 		],
 	},
@@ -164,7 +164,7 @@ export const seniorData: TeamCardProps[] = [
 			{
 				color: 'cyan',
 				text: 'Internal Affairs',
-				icon: <FaCode className="-mt-1" size={15} />,
+				icon: <FaCode size={15} />,
 			},
 		],
 	},
@@ -188,7 +188,7 @@ export const seniorData: TeamCardProps[] = [
 			{
 				color: 'cyan',
 				text: 'Advisor',
-				icon: <FaCode className="-mt-1" size={15} />,
+				icon: <FaCode size={15} />,
 			},
 		],
 	},
