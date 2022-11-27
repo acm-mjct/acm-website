@@ -2,6 +2,7 @@ import Footer from '@components/Footer';
 import Navbar from '@components/Navbar';
 import { MantineProvider } from '@mantine/core';
 import { emotionCache } from '@utils/emotions';
+import { Analytics } from '@vercel/analytics/react';
 import { AnimatePresence } from 'framer-motion';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -64,6 +65,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 						</nav>
 						<div className="mx-auto min-h-screen  max-w-[88rem] px-4">
 							<Component {...pageProps} />
+							<Analytics />
 						</div>
 						{router.pathname !== '/404' && (
 							<footer className="w-full left-0 absolute">
