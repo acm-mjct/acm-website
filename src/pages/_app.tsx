@@ -1,5 +1,7 @@
 import Footer from '@components/Footer';
 import Navbar from '@components/Navbar';
+import { MantineProvider } from '@mantine/core';
+import { emotionCache } from '@utils/emotions';
 import { AnimatePresence } from 'framer-motion';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -46,23 +48,32 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 				<meta content="ACM MJCET" property="twitter:title" />
 				{/* <meta content="/embed.png" property="twitter:image" /> */}
 			</Head>
-			<NextNProgress transformCSS={transformCSS} />
-			<AnimatePresence initial mode="wait">
-				<div className="bg-fixed min-h-screen bg-true-gray-900 background-image overflow-hidden">
-					<nav>
-						<Navbar />
-					</nav>
-					<div className="mx-auto min-h-screen  max-w-[88rem] px-4">
-						<Component {...pageProps} />
+			<MantineProvider
+				emotionCache={emotionCache}
+				theme={{
+					colorScheme: 'dark',
+				}}
+				withGlobalStyles
+				withNormalizeCSS
+			>
+				<NextNProgress transformCSS={transformCSS} />
+				<AnimatePresence initial mode="wait">
+					<div className="bg-fixed min-h-screen bg-true-gray-900 background-image overflow-hidden">
+						<nav>
+							<Navbar />
+						</nav>
+						<div className="mx-auto min-h-screen  max-w-[88rem] px-4">
+							<Component {...pageProps} />
+						</div>
+						{router.pathname !== '/404' && (
+							<footer className="w-full left-0 absolute">
+								<Footer />
+							</footer>
+						)}
 					</div>
-					{router.pathname !== '/404' && (
-						<footer className="w-full left-0 absolute">
-							<Footer />
-						</footer>
-					)}
-				</div>
-				{/* <ToastContainer theme="dark" /> */}
-			</AnimatePresence>
+					{/* <ToastContainer theme="dark" /> */}
+				</AnimatePresence>
+			</MantineProvider>
 		</div>
 	);
 }

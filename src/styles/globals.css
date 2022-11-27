@@ -20,3 +20,12 @@
 	background-color: #b1b1b1;
 	border: 2px solid #555555;
 }
+
+.move-up {
+	position: relative;
+	top: 0;
+	transition: top ease 0.5s;
+}
+.move-up:hover {
+	top: -10px;
+}

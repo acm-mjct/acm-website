@@ -1,6 +1,6 @@
 export default function About() {
 	return (
-		<div className="mt-10 flex justify-center items-center lt-lg:flex-col-reverse lt-lg:mx-10 gap-10" id="about">
+		<div className="mt-10 flex justify-center items-center lt-lg:flex-col-reverse lt-lg:px-10 gap-10 w-full" id="about">
 			<video autoPlay className="object-cover" loop muted poster="/thumb.jpg" src="/about.mp4" />
 			<div className="flex flex-col justify-center items-start gap-6">
 				<h1 className="text-4xl font-bold text-white">About Us</h1>
@@ -11,7 +11,7 @@ export default function About() {
 					resources that advance computing as a science and a profession; enable professional development; and promote
 					policies and research that benefit society.
 				</p>
-				<div className="flex ml-10 justify-start items-center w-full gap-40">
+				<div className="flex ml-10 justify-start items-center w-full gap-40 lt-lg:gap-20 lt-lg:ml-0">
 					<ul className="text-white list-disc">
 						<li>Lectures and Workshops</li>
 						<li>Student Presentations</li>
