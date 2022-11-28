@@ -106,7 +106,7 @@ export const seniorData: TeamCardProps[] = [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: 'https://www.linkedin.com/in/maleha-ansari-035bc/',
-				tooltip: 'Syeda Maheen',
+				tooltip: 'Maleha Ansari',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,

@@ -10,7 +10,7 @@ export default function Home() {
 					loop
 					muted
 					poster="/thumb.jpg"
-					src="/video1.webm"
+					src="/homeVideo.webm"
 				/>
 			</div>
 			<About />
