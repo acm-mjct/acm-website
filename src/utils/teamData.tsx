@@ -1,4 +1,4 @@
-import { FaCode, FaDiscord, FaGithub, FaTwitter, FaInstagramSquare, FaLinkedin } from 'react-icons/fa';
+import { FaCode, FaDiscord, FaGithub, FaInstagramSquare, FaTwitter, FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 
 import type { BadgeData, TeamCardProps } from '@components/TeamCard';
 
@@ -7,6 +7,7 @@ const gameArtistBadge: BadgeData = {
 	text: 'Game Artist',
 	icon: 'https://cdn.discordapp.com/role-icons/874840760585969705/88cef2e316f78cb983f0503c87510883.png',
 };
+
 
 // const webDeveloperBadge: BadgeData = {
 // 	color: 'green',
@@ -147,7 +148,7 @@ export const seniorData: TeamCardProps[] = [
 	},
 	{
 		username: 'Maryum Urooj',
-		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		avatar: '/senior/mariym.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -196,17 +197,244 @@ export const seniorData: TeamCardProps[] = [
 
 export const leadData: TeamCardProps[] = [
 	{
-		username: 'TEST PROFILE',
-		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		username: 'Mariyam Arshiya',
+		avatar: '/Junior/arshiya.jpg',
 		socialMedia: [
 			{
-				icon: <FaDiscord size={20} />,
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.linkedin.com/in/mariyam-arshia-0b4621209/?originalSubdomain=in',
+				tooltip: 'Mariyam Arshiya',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: ' https://www.instagram.com/mariyammm__78/',
+				tooltip: 'Mariyam Arshiya',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'Adeeb Abdul Taher',
+		avatar: '/Junior/Adeeb.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.linkedin.com/in/adeeb-abdultaher-696229194',
+				tooltip: 'Adeeb Abdul Taher',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://instagram.com/adeebabdultaher?igshid=YmMyMTA2M2Y=',
+				tooltip: 'Adeeb Abdul Taher',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'Masood Ahmed',
+		avatar: '/Junior/Masood.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.linkedin.com/in/masood-ahmed-mohiuddin',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: '',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'Quazi Affan Ahmed',
+		avatar: '/Junior/affan.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.linkedin.com/in/quazi-affan-ahmad-15b6a221b',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'Yasir Hussain',
+		avatar: '/Junior/yasir.jpeg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.linkedin.com/in/yasir-hussain-763200215',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.instagram.com/yasir_.hussain_/',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'Anum Rida',
+		avatar: '/Junior/anum.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
 				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
 				tooltip: 'test data',
 			},
 			{
-				icon: <FaTwitter size={20} />,
+				icon: <FaInstagramSquare size={20} />,
 				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'Abdul Hadi',
+		avatar: '/Junior/hadi.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'Juwairia Baig',
+		avatar: '/Junior/baig.jpeg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'Aaqeb Ahmed',
+		avatar: '/Junior/aaqeb2.jpeg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'Abdul Basith',
+		avatar: '/Junior/me.jpg',
+		socialMedia: [
+			{
+				icon: <FaGithub size={20} />,
+				link: 'https://github.com/Abdulbasith0792',
+				tooltip: 'Abdul Basith',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.instagram.com/_abdulbasith07._/',
+				tooltip: 'AB',
+			},
+		],
+		badges: [
+			{
+				color: 'blue',
+				text: 'King',
+				icon: 'https://cdn.discordapp.com/role-icons/877076975188082688/e0e4f634c5a4b1b8a3141a48d90e552c.webp',
+			},
+		],
+	},
+	{
+		username: 'Asrar Ahmed',
+		avatar: '/Junior/asrar.jpeg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.linkedin.com/in/mohd-asrar-ahmed-738b5922b/',
+				tooltip: 'Asrar ahmed',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'Asrar Ahmed',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'Uzma Begum',
+		avatar: '/Junior/uzma1.jpeg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.linkedin.com/in/uzma-begum-293206201',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://instagram.com/you.begum?igshid=YmMyMTA2M2Y=',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'Syed Zain',
+		avatar: '/Junior/zain.jpeg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'Waqas Faraz',
+		avatar: '/Junior/far.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.linkedin.com/in/waqas-faraz-b622891b8',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://instagram.com/waqasfaraz2?igshid=Njc5ZjliZWU=',
 				tooltip: 'test data',
 			},
 		],
@@ -220,12 +448,233 @@ export const helperData: TeamCardProps[] = [
 		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
 		socialMedia: [
 			{
-				icon: <FaDiscord size={20} />,
+				icon: <FaLinkedin size={20} />,
 				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
 				tooltip: 'test data',
 			},
 			{
-				icon: <FaTwitter size={20} />,
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'TEST PROFILE',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'TEST PROFILE',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'TEST PROFILE',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'TEST PROFILE',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'TEST PROFILE',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'TEST PROFILE',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'TEST PROFILE',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'TEST PROFILE',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'TEST PROFILE',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'TEST PROFILE',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'TEST PROFILE',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'TEST PROFILE',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [gameArtistBadge],
+	},
+	{
+		username: 'TEST PROFILE',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
 				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
 				tooltip: 'test data',
 			},
