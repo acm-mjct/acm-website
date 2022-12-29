@@ -197,21 +197,27 @@ export const seniorData: TeamCardProps[] = [
 
 export const leadData: TeamCardProps[] = [
 	{
-		username: 'Mariyam Arshiya',
+		username: 'Mariyam Arshia',
 		avatar: '/Junior/arshiya.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: 'https://www.linkedin.com/in/mariyam-arshia-0b4621209/?originalSubdomain=in',
-				tooltip: 'Mariyam Arshiya',
+				tooltip: 'Mariyam Arshia',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
 				link: ' https://www.instagram.com/mariyammm__78/',
-				tooltip: 'Mariyam Arshiya',
+				tooltip: 'Mariyam Arshia',
 			},
 		],
-		badges: [gameArtistBadge],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Human Resources',
+				icon: <FaCode size={15} />,
+			},
+		],
 	},
 	{
 		username: 'Adeeb Abdul Taher',
@@ -228,7 +234,13 @@ export const leadData: TeamCardProps[] = [
 				tooltip: 'Adeeb Abdul Taher',
 			},
 		],
-		badges: [gameArtistBadge],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Human Resources',
+				icon: <FaCode size={15} />,
+			},
+		],
 	},
 	{
 		username: 'Masood Ahmed',
@@ -245,7 +257,13 @@ export const leadData: TeamCardProps[] = [
 				tooltip: 'test data',
 			},
 		],
-		badges: [gameArtistBadge],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Logistics',
+				icon: <FaCode size={15} />,
+			},
+		],
 	},
 	{
 		username: 'Quazi Affan Ahmed',
@@ -262,7 +280,13 @@ export const leadData: TeamCardProps[] = [
 				tooltip: 'test data',
 			},
 		],
-		badges: [gameArtistBadge],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Logistics',
+				icon: <FaCode size={15} />,
+			},
+		],
 	},
 	{
 		username: 'Yasir Hussain',
@@ -279,7 +303,13 @@ export const leadData: TeamCardProps[] = [
 				tooltip: 'test data',
 			},
 		],
-		badges: [gameArtistBadge],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Marketing',
+				icon: <FaCode size={15} />,
+			},
+		],
 	},
 	{
 		username: 'Anum Rida',
@@ -296,7 +326,13 @@ export const leadData: TeamCardProps[] = [
 				tooltip: 'test data',
 			},
 		],
-		badges: [gameArtistBadge],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Media',
+				icon: <FaCode size={15} />,
+			},
+		],
 	},
 	{
 		username: 'Abdul Hadi',
@@ -313,7 +349,13 @@ export const leadData: TeamCardProps[] = [
 				tooltip: 'test data',
 			},
 		],
-		badges: [gameArtistBadge],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Documentation',
+				icon: <FaCode size={15} />,
+			},
+		],
 	},
 	{
 		username: 'Juwairia Baig',
@@ -330,7 +372,13 @@ export const leadData: TeamCardProps[] = [
 				tooltip: 'test data',
 			},
 		],
-		badges: [gameArtistBadge],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Documentation',
+				icon: <FaCode size={15} />,
+			},
+		],
 	},
 	{
 		username: 'Aaqeb Ahmed',
@@ -347,7 +395,13 @@ export const leadData: TeamCardProps[] = [
 				tooltip: 'test data',
 			},
 		],
-		badges: [gameArtistBadge],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Tech ',
+				icon: <FaCode size={15} />,
+			},
+		],
 	},
 	{
 		username: 'Abdul Basith',
@@ -367,7 +421,7 @@ export const leadData: TeamCardProps[] = [
 		badges: [
 			{
 				color: 'blue',
-				text: 'King',
+				text: 'Tech',
 				icon: 'https://cdn.discordapp.com/role-icons/877076975188082688/e0e4f634c5a4b1b8a3141a48d90e552c.webp',
 			},
 		],
@@ -387,7 +441,13 @@ export const leadData: TeamCardProps[] = [
 				tooltip: 'Asrar Ahmed',
 			},
 		],
-		badges: [gameArtistBadge],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Tech',
+				icon: <FaCode size={15} />,
+			},
+		],
 	},
 	{
 		username: 'Uzma Begum',
@@ -404,7 +464,13 @@ export const leadData: TeamCardProps[] = [
 				tooltip: 'test data',
 			},
 		],
-		badges: [gameArtistBadge],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Design',
+				icon: <FaCode size={15} />,
+			},
+		],
 	},
 	{
 		username: 'Syed Zain',
@@ -421,7 +487,13 @@ export const leadData: TeamCardProps[] = [
 				tooltip: 'test data',
 			},
 		],
-		badges: [gameArtistBadge],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Content Creation',
+				icon: <FaCode size={15} />,
+			},
+		],
 	},
 	{
 		username: 'Waqas Faraz',
@@ -438,7 +510,13 @@ export const leadData: TeamCardProps[] = [
 				tooltip: 'test data',
 			},
 		],
-		badges: [gameArtistBadge],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Social Media',
+				icon: <FaCode size={15} />,
+			},
+		],
 	},
 ];
 
