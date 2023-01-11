@@ -1,4 +1,4 @@
-import { FaCode, FaDiscord, FaGithub, FaInstagramSquare, FaTwitter, FaLinkedin, FaGithubSquare } from 'react-icons/fa';
+import { FaCode, FaGithub, FaInstagramSquare, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 import type { BadgeData, TeamCardProps } from '@components/TeamCard';
 
@@ -7,7 +7,6 @@ const gameArtistBadge: BadgeData = {
 	text: 'Game Artist',
 	icon: 'https://cdn.discordapp.com/role-icons/874840760585969705/88cef2e316f78cb983f0503c87510883.png',
 };
-
 
 // const webDeveloperBadge: BadgeData = {
 // 	color: 'green',
