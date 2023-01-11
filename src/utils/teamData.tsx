@@ -252,7 +252,7 @@ export const leadData: TeamCardProps[] = [
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: '',
+				link: 'https://www.instagram.com/masoodahmed.gm/',
 				tooltip: 'Masood Ahmed',
 			},
 		],
