@@ -1,4 +1,4 @@
-import { FaCode, FaGithub, FaInstagramSquare, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { FaCode, FaGithub, FaInstagramSquare, FaTwitter, FaLinkedin, FaBlog } from 'react-icons/fa';
 
 import type { BadgeData, TeamCardProps } from '@components/TeamCard';
 
@@ -362,12 +362,17 @@ export const leadData: TeamCardProps[] = [
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				link: 'https://www.linkedin.com/in/juwairia-baig-730609201',
 				tooltip: 'Juwairia Baig',
 			},
 			{
+				icon: <FaBlog size={20} />,
+				link: 'https://juwairiabaig.wordpress.com/author/juwairiabaig',
+				tooltip: 'Juwairia Baig Blog',
+			},
+			{
 				icon: <FaInstagramSquare size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				link: 'https://www.instagram.com/juwairia_baig/',
 				tooltip: 'Juwairia Baig',
 			},
 		],
