@@ -90,7 +90,10 @@ export default function Footer() {
 			</div>
 
 			<div className="flex mx-auto max-w-[88rem] items-center justify-between lt-lg:flex-col lt-lg:flex-col-reverse lt-lg:gap-2">
-				<div className="text-sm pt-2 text-light-200">ACM MJCET | &copy; All rights reserved</div>
+				<div className="text-sm pt-2 text-light-200">
+					ACM MJCET | &copy; All rights reserved | Developed with ❤️ ~{' '}
+					<a href="https://github.com/legendhimself">Voxelli</a>
+				</div>
 
 				<div className="flex pt-4 gap-4">
 					<a href="https://hashnode.com/@acmmjcet" rel="noreferrer" target="_blank">

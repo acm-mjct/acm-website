@@ -1,4 +1,4 @@
-import { FaCode,  FaGithub, FaInstagramSquare, FaTwitter, FaLinkedin} from 'react-icons/fa';
+import { FaCode, FaGithub, FaInstagramSquare, FaTwitter, FaLinkedin, FaBlog } from 'react-icons/fa';
 
 import type { BadgeData, TeamCardProps } from '@components/TeamCard';
 
@@ -7,7 +7,6 @@ const gameArtistBadge: BadgeData = {
 	text: 'Game Artist',
 	icon: 'https://cdn.discordapp.com/role-icons/874840760585969705/88cef2e316f78cb983f0503c87510883.png',
 };
-
 
 // const webDeveloperBadge: BadgeData = {
 // 	color: 'green',
@@ -221,7 +220,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Adeeb Abdul Taher',
-		avatar: '/Junior/Adeeb.jpg',
+		avatar: '/Junior/adeeb.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -244,17 +243,17 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Masood Ahmed',
-		avatar: '/Junior/Masood.jpg',
+		avatar: '/Junior/masood.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: 'https://www.linkedin.com/in/masood-ahmed-mohiuddin',
-				tooltip: 'masood ahmed',
+				tooltip: 'Masood Ahmed',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
 				link: 'https://www.instagram.com/masoodahmed.gm/',
-				tooltip: 'masood ahmed',
+				tooltip: 'Masood Ahmed',
 			},
 		],
 		badges: [
@@ -272,12 +271,12 @@ export const leadData: TeamCardProps[] = [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: 'https://www.linkedin.com/in/quazi-affan-ahmad-15b6a221b',
-				tooltip: 'affan ahmed',
+				tooltip: 'Affan Ahmed',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
 				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'affan ahmed',
+				tooltip: 'Affan Ahmed',
 			},
 		],
 		badges: [
@@ -295,12 +294,12 @@ export const leadData: TeamCardProps[] = [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: 'https://www.linkedin.com/in/yasir-hussain-763200215',
-				tooltip: 'yasir',
+				tooltip: 'Yasir Hussain',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
 				link: 'https://www.instagram.com/yasir_.hussain_/',
-				tooltip: 'yasir',
+				tooltip: 'Yasir Hussain',
 			},
 		],
 		badges: [
@@ -318,12 +317,13 @@ export const leadData: TeamCardProps[] = [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'anum rida',
+
+				tooltip: 'Anum Rida',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
 				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'anum rida',
+				tooltip: 'Anum Rida',
 			},
 		],
 		badges: [
@@ -341,12 +341,13 @@ export const leadData: TeamCardProps[] = [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'hadi',
+				
+				tooltip: 'Abdul Hadi',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
 				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'abdul hadi',
+				tooltip: 'Abdul Hadi',
 			},
 		],
 		badges: [
@@ -363,13 +364,18 @@ export const leadData: TeamCardProps[] = [
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'juwairia baig',
+				link: 'https://www.linkedin.com/in/juwairia-baig-730609201',
+				tooltip: 'Juwairia Baig',
+			},
+			{
+				icon: <FaBlog size={20} />,
+				link: 'https://juwairiabaig.wordpress.com/author/juwairiabaig',
+				tooltip: 'Juwairia Baig Blog',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'juwairia baig',
+				link: 'https://www.instagram.com/juwairia_baig/',
+				tooltip: 'Juwairia Baig',
 			},
 		],
 		badges: [
@@ -387,12 +393,12 @@ export const leadData: TeamCardProps[] = [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'aaqeb ahmed',
+				tooltip: 'Aaqeb Ahmed',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
 				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'aaqeb ahmed',
+				tooltip: 'Aaqeb Ahmed',
 			},
 		],
 		badges: [
@@ -462,12 +468,14 @@ export const leadData: TeamCardProps[] = [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: 'https://www.linkedin.com/in/uzma-begum-293206201',
-				tooltip: 'uzma',
+				
+				tooltip: 'Uzma Begum',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
 				link: 'https://instagram.com/you.begum?igshid=YmMyMTA2M2Y=',
-				tooltip: 'uzma',
+			
+				tooltip: 'Uzma Begum',
 			},
 		],
 		badges: [
@@ -486,11 +494,12 @@ export const leadData: TeamCardProps[] = [
 				icon: <FaLinkedin size={20} />,
 				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
 				tooltip: 'zain',
+				
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
 				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'zain',
+				tooltip: 'Syed Zain',
 			},
 		],
 		badges: [
@@ -508,12 +517,12 @@ export const leadData: TeamCardProps[] = [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: 'https://www.linkedin.com/in/waqas-faraz-b622891b8',
-				tooltip: 'waqas',
+				tooltip: 'Waqas Faraz',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
 				link: 'https://instagram.com/waqasfaraz2?igshid=Njc5ZjliZWU=',
-				tooltip: 'waqas',
+				tooltip: 'Waqas Faraz',
 			},
 		],
 		badges: [
@@ -527,32 +536,10 @@ export const leadData: TeamCardProps[] = [
 ];
 
 export const helperData: TeamCardProps[] = [
-	{
-		username: 'TEST PROFILE',
-		avatar: '/junior/ab.jpg',
-		socialMedia: [
-			{
-				icon: <FaLinkedin size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
-			},
-			{
-				icon: <FaInstagramSquare size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
-			},
-		],
-		badges: [
-			{
-				color: 'red',
-				text: 'Human Resources',
-				icon: <FaCode size={15} />,
-			},
-		],
-	},
+	
 	{
 		username: 'Madiha Wahed',
-		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		avatar: '/core/hr1.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -580,12 +567,12 @@ export const helperData: TeamCardProps[] = [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
+				tooltip: 'Syed Farooq',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
 				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
+				tooltip: 'Syed Farooq',
 			},
 		],
 		badges: [
@@ -601,6 +588,74 @@ export const helperData: TeamCardProps[] = [
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
+				link: 'https://www.linkedin.com/in/shaik-kazna-0650a424a',
+				tooltip: 'Kazna Sultana',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'Kazna Sultana',
+			},
+		],
+		badges: [
+			{
+				color: 'red',
+				text: 'Human Resources',
+				icon: <FaCode size={15} />,
+			},
+		],	},
+	{
+		username: 'Touseef Banu',
+		avatar: '/core/hr2.jpg',	
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'Touseef Banu',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'Touseef Banu',
+			},
+		],
+		badges: [
+			{
+				color: 'red',
+				text: 'Human Resources',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Mujataba Uddin',
+		avatar: '/core/mujtaba.jpeg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.linkedin.com/in/mujtaba-uddin-6941a1246',
+				tooltip: 'Mujtaba Uddin',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://instagram.com/mujtabauddin_?igshid=YmMyMTA2M2Y=',
+				tooltip: 'test data',
+			},
+		],
+		badges: [
+			{
+				color: 'blue',
+				text: 'Logistics',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Aziz Ur Rahman',
+		avatar: '/core/log1.jpeg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
 				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
 				tooltip: 'test data',
 			},
@@ -612,69 +667,65 @@ export const helperData: TeamCardProps[] = [
 		],
 		badges: [
 			{
-				color: 'red',
-				text: 'Human Resources',
+				color: 'blue',
+				text: 'Logistics',
 				icon: <FaCode size={15} />,
 			},
-		],	},
-	{
-		username: 'Mohammed Touseef',
-		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-		socialMedia: [
-			{
-				icon: <FaLinkedin size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
-			},
-			{
-				icon: <FaInstagramSquare size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
-			},
 		],
-		badges: [gameArtistBadge],
 	},
 	{
-		username: 'TEST PROFILE',
-		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		username: 'Yusra Asif Gavandi',
+		avatar: '/core/log2.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
+				tooltip: 'Yusra Asif',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
 				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
+				tooltip: 'Yusra Asif',
 			},
 		],
-		badges: [gameArtistBadge],
+		badges: [
+			{
+				color: 'blue',
+				text: 'Logistics',
+				icon: <FaCode size={15} />,
+			},
+		],
 	},
 	{
-		username: 'TEST PROFILE',
-		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		username: 'Mohammad Yaseen',
+		avatar: '/core/log3.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
+				link: 'https://www.linkedin.com/in/yaseen-mohammed-5a4ba925b',
+				tooltip: 'Yaseen',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
+				link: 'https://www.instagram.com/i.yaseen.07/',
+				tooltip: 'Yaseen',
 			},
 		],
-		badges: [gameArtistBadge],
+		badges: [
+			{
+				color: 'blue',
+				text: 'Logistics',
+				icon: <FaCode size={15} />,
+			},
+		],
 	},
 	{
-		username: 'TEST PROFILE',
-		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		username: 'Waasi Uddin',
+		avatar: '/core/log4.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				link: 'https://www.linkedin.com/in/waasiuddin-siddiqui-4bb1ab260',
 				tooltip: 'test data',
 			},
 			{
@@ -683,24 +734,13 @@ export const helperData: TeamCardProps[] = [
 				tooltip: 'test data',
 			},
 		],
-		badges: [gameArtistBadge],
-	},
-	{
-		username: 'TEST PROFILE',
-		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-		socialMedia: [
+		badges: [
 			{
-				icon: <FaLinkedin size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
-			},
-			{
-				icon: <FaInstagramSquare size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
+				color: 'blue',
+				text: 'Logistics',
+				icon: <FaCode size={15} />,
 			},
 		],
-		badges: [gameArtistBadge],
 	},
 	{
 		username: 'TEST PROFILE',
