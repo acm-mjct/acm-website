@@ -552,12 +552,12 @@ export const coreTeamData: TeamCardProps[] = [
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				link: 'https://www.linkedin.com/in/syed-farooq-143a6b246',
 				tooltip: 'Syed Farooq',
 			},
 			{
-				icon: <FaInstagramSquare size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				icon: <FaGithub size={20} />,
+				link: 'https://github.com/JuniorAdult',
 				tooltip: 'Syed Farooq',
 			},
 		],
@@ -1105,12 +1105,12 @@ export const coreTeamData: TeamCardProps[] = [
 	},
 	{
 		username: 'Mukarram Shareef',
-		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		avatar: '/core/tec1.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
+				link: 'https://www.linkedin.com/in/moazzam-mukarram-shareef-67250524a',
+				tooltip: 'Mukaarram Shareef',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
@@ -1128,17 +1128,17 @@ export const coreTeamData: TeamCardProps[] = [
 	},
 	{
 		username: 'Affan Ahmed',
-		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		avatar: '/core/aff.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
+				link: 'https://www.linkedin.com/in/affan-ahmed-b50bb125b/',
+				tooltip: 'Affan Ahmed',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
+				link: 'https://www.instagram.com/_affannnn__/',
+				tooltip: 'Affan Ahmed',
 			},
 		],
 		badges: [
@@ -1174,17 +1174,17 @@ export const coreTeamData: TeamCardProps[] = [
 	},
 	{
 		username: 'Abdul Muneeb',
-		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		avatar: '/core/mun.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
+				link: 'https://www.linkedin.com/in/syed-abdul-muneeb',
+				tooltip: 'Abdul Muneeb',
 			},
 			{
-				icon: <FaInstagramSquare size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
+				icon: <FaGithub size={20} />,
+				link: 'https://github.com/AbdulMuneebSyed',
+				tooltip: 'Abdul Muneeb',
 			},
 		],
 		badges: [
@@ -1195,54 +1195,101 @@ export const coreTeamData: TeamCardProps[] = [
 			},
 		],
 	},
+	
 	{
-		username: 'TEST PROFILE',
-		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		username: 'Pattan Asif Khan',
+		avatar: '/core/de3.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
+				link: 'https://www.linkedin.com/in/asif-khan-a50a19261/',
+				tooltip: 'Asif Khan',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
+				link: 'https://www.instagram.com/_aja52/',
+				tooltip: 'Asif Khan',
 			},
 		],
 		badges: [
 			{
-				color: 'blue',
-				text: 'Test',
+				color: 'violet',
+				text: 'Design',
 				icon: <FaCode size={15} />,
 			},
 		],
 	},
 	{
-		username: 'TEST PROFILE',
-		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		username: 'Abdur Rahman',
+		avatar: '/core/de2.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
+				link: 'https://www.linkedin.com/in/syed-abdur-rahman-69a773261/',
+				tooltip: 'Abdur Rahman',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-				tooltip: 'test data',
+				link: 'https://www.instagram.com/sar_1803/',
+				tooltip: 'Abdur Rahman',
 			},
 		],
 		badges: [
 			{
-				color: 'blue',
-				text: 'Test',
+				color: 'violet',
+				text: 'Design',
 				icon: <FaCode size={15} />,
 			},
 		],
 	},
 	{
-		username: 'TEST PROFILE',
+		username: 'Sk Sadiqa Parveen',
+		avatar: '/core/de1.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.linkedin.com/in/sk-sadiqa-803ab4261',
+				tooltip: 'Sadiqa Parveen',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://instagram.com/komo__rebi_7?igshid=Yzg5MTU1MDY=',
+				tooltip: 'Sadiqa Parveen',
+			},
+		],
+		badges: [
+			{
+				color: 'violet',
+				text: 'Design',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Anas Ahmed',
+		avatar: '/core/cc3.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.linkedin.com/in/mohammed-anas-ahmed-959581249',
+				tooltip: 'Anas Ahmed',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://instagram.com/anas_blz?igshid=MDM4ZDc5MmU=',
+				tooltip: 'Anas Ahmed',
+			},
+		],
+		badges: [
+			{
+				color: 'indigo',
+				text: 'Content Creation',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Amena W',
 		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
 		socialMedia: [
 			{
@@ -1258,8 +1305,146 @@ export const coreTeamData: TeamCardProps[] = [
 		],
 		badges: [
 			{
-				color: 'blue',
-				text: 'Test',
+				color: 'indigo',
+				text: 'Content Creation',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Maaz Ahmed',
+		avatar: '/core/cc2.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.linkedin.com/in/maaz-ahmed-a7b118256',
+				tooltip: 'Maaz Ahmed',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://instagram.com/thatt___guy?igshid=YmMyMTA2M2Y=',
+				tooltip: 'Maaz Ahmed',
+			},
+		],
+		badges: [
+			{
+				color: 'indigo',
+				text: 'Content Creation',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Syed Uzair Ullah',
+		avatar: '/core/cc1.jpeg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [
+			{
+				color: 'indigo',
+				text: 'Content Creation',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Abdul Basith',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Social Media',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Aliuddin Hussain',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.instagram.com/aliuddin_04/',
+				tooltip: 'Aliuddin Hussain',
+			},
+		],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Social Media',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Poorvi Reddy',
+		avatar: '/core/smm1.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'test data',
+			},
+		],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Social Media',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Aimen Laiba',
+		avatar: '/core/smm2.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.linkedin.com/in/aimen-laiba-158aaa256',
+				tooltip: 'Aimen Laiba',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.instagram.com/aimenlaibaa/',
+				tooltip: 'Aimen Laiba',
+			},
+		],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Social Media',
 				icon: <FaCode size={15} />,
 			},
 		],
