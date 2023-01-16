@@ -1,6 +1,6 @@
 import TeamGroup from '@components/TeamGroup';
 import { Divider } from '@mantine/core';
-import { helperData, leadData, seniorData } from '@utils/teamData';
+import { coreTeamData, helperData, leadData, seniorData } from '@utils/teamData';
 import { variants } from '@utils/variants';
 import { motion } from 'framer-motion';
 import Head from 'next/head';
@@ -28,7 +28,7 @@ export default function TermsPage() {
 						<Divider className="w-full" />
 						<TeamGroup teamData={leadData} title="Junior Execom" />
 						<Divider className="w-full" />
-						<TeamGroup teamData={helperData} title="Core Team" />
+						<TeamGroup teamData={coreTeamData} title="Core Team" />
 					</div>
 					<div>
 						<div className="text-center text-2xl pb-5">Past Execom 2021-2022</div>
