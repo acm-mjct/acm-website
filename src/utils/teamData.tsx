@@ -185,7 +185,7 @@ export const seniorData: TeamCardProps[] = [
 export const leadData: TeamCardProps[] = [
 	{
 		username: 'Mariyam Arshia',
-		avatar: '/Junior/arshiya.jpg',
+		avatar: '/junior/arshiya.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -208,7 +208,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Adeeb Abdul Taher',
-		avatar: '/Junior/adeeb.jpg',
+		avatar: '/junior/adeeb.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -231,7 +231,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Masood Ahmed',
-		avatar: '/Junior/masood.jpg',
+		avatar: '/junior/masood.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -254,7 +254,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Quazi Affan Ahmed',
-		avatar: '/Junior/affan.jpg',
+		avatar: '/junior/affan.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -277,7 +277,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Yasir Hussain',
-		avatar: '/Junior/yasir.jpeg',
+		avatar: '/junior/yasir.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -300,7 +300,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Anum Rida',
-		avatar: '/Junior/anum.jpg',
+		avatar: '/junior/anum.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -324,7 +324,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Abdul Hadi',
-		avatar: '/Junior/hadi.jpg',
+		avatar: '/junior/hadi.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -348,7 +348,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Juwairia Baig',
-		avatar: '/Junior/baig.jpeg',
+		avatar: '/junior/baig.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -376,7 +376,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Aaqeb Ahmed',
-		avatar: '/Junior/aaqeb2.jpeg',
+		avatar: '/junior/aaqeb2.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -399,7 +399,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Abdul Basith',
-		avatar: '/Junior/me.jpg',
+		avatar: '/junior/me.jpg',
 		socialMedia: [
 			{
 				icon: <FaGithub size={20} />,
@@ -428,7 +428,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Asrar Ahmed',
-		avatar: '/Junior/asrar.jpeg',
+		avatar: '/junior/asrar.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -451,7 +451,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Uzma Begum',
-		avatar: '/Junior/uzma1.jpeg',
+		avatar: '/junior/uzma1.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -476,7 +476,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Syed Zain',
-		avatar: '/Junior/zain.jpeg',
+		avatar: '/junior/zain.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -499,7 +499,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Waqas Faraz',
-		avatar: '/Junior/far.jpg',
+		avatar: '/junior/far.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
