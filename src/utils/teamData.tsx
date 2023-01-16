@@ -1195,7 +1195,7 @@ export const coreTeamData: TeamCardProps[] = [
 			},
 		],
 	},
-	
+
 	{
 		username: 'Pattan Asif Khan',
 		avatar: '/core/de3.jpeg',
@@ -1445,6 +1445,101 @@ export const coreTeamData: TeamCardProps[] = [
 			{
 				color: 'cyan',
 				text: 'Social Media',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+];
+
+export const helperData: TeamCardProps[] = [
+	{
+		username: 'Test Profile',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'Test Data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://instagram.com/madiha_wahed?igshid=Zjc2ZTc4Nzk=',
+				tooltip: 'Test Data',
+			},
+		],
+		badges: [
+			{
+				color: 'red',
+				text: 'Test',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Test Profile',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'Test Data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://instagram.com/madiha_wahed?igshid=Zjc2ZTc4Nzk=',
+				tooltip: 'Test Data',
+			},
+		],
+		badges: [
+			{
+				color: 'red',
+				text: 'Test',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Test Profile',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'Test Data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://instagram.com/madiha_wahed?igshid=Zjc2ZTc4Nzk=',
+				tooltip: 'Test Data',
+			},
+		],
+		badges: [
+			{
+				color: 'red',
+				text: 'Test',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Test Profile',
+		avatar: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
+				tooltip: 'Test Data',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://instagram.com/madiha_wahed?igshid=Zjc2ZTc4Nzk=',
+				tooltip: 'Test Data',
+			},
+		],
+		badges: [
+			{
+				color: 'red',
+				text: 'Test',
 				icon: <FaCode size={15} />,
 			},
 		],
