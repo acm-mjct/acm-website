@@ -50,7 +50,7 @@ export default function Navbar() {
 									alt="acm"
 									className="cursor-pointer"
 									height={48}
-									placeholder="blur"
+									placeholder="empty"
 									src={navbarImage}
 									width={103}
 								/>
