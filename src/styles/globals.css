@@ -29,3 +29,17 @@
 .move-up:hover {
 	top: -10px;
 }
+
+.button-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	margin: 0 10px;
+	padding: 10px 20px;
+	background-color: #4caf50; /* Green */
+	color: white;
+	border: none;
+	cursor: pointer;
+}
