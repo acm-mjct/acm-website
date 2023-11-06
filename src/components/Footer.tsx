@@ -24,9 +24,9 @@ export default function Footer() {
 								/>
 							</svg>
 
-							<a>Madiha Siddique:</a>
+							<a>Syeda Maheen:</a>
 							<a className="no-underline hover:underline" href="https://api.whatsapp.com/send?phone=919381837003">
-								+91 81060 64605
+								+91 8106063590
 							</a>
 						</div>
 						<div className="flex gap-2 justify-start items-center">
@@ -48,9 +48,9 @@ export default function Footer() {
 								/>
 							</svg>
 
-							<a>Haseeb Khan:</a>
+							<a>Maleha Ansari:</a>
 							<a className="no-underline hover:underline" href="https://api.whatsapp.com/send?phone=919381837003">
-								+91 93818 37003
+								+91 9121776446
 							</a>
 						</div>
 						<div className="flex gap-2 pt-2 justify-start items-center">
