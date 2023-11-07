@@ -3,8 +3,8 @@ import { Group } from '@mantine/core';
 import TeamCard, { type TeamCardProps } from './TeamCard';
 
 export interface TeamGroupProps {
-	teamData: TeamCardProps[];
-	title: string;
+	readonly teamData: TeamCardProps[];
+	readonly title: string;
 }
 
 export default function TeamGroup({ teamData, title }: TeamGroupProps) {
