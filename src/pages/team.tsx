@@ -1,7 +1,7 @@
 import TeamGroup from '@components/TeamGroup';
 import { Divider } from '@mantine/core';
+import { preseniorData, preleadData } from '@utils/previousExecom';
 import { coreTeamData, helperData, leadData, seniorData } from '@utils/teamData';
-import{preseniorData,preleadData} from '@utils/previousExecom'
 import { variants } from '@utils/variants';
 import { motion } from 'framer-motion';
 import Head from 'next/head';
@@ -16,7 +16,7 @@ const ExecomPage = () => {
 	if (currentPage === 1) {
 		teamData = { seniorData, leadData, coreTeamData };
 	} else if (currentPage === 2) {
-		teamData = { seniorData:preseniorData, leadData: preleadData, coreTeamData: helperData };
+		teamData = { seniorData: preseniorData, leadData: preleadData, coreTeamData: helperData };
 	} else {
 		teamData = { seniorData, leadData, coreTeamData };
 	}
@@ -36,7 +36,7 @@ const ExecomPage = () => {
 				>
 					<div>
 						<div className="text-center text-2xl pb-5">
-							{execom} {currentYear }-{currentYear+1}
+							{execom} {currentYear}-{currentYear + 1}
 						</div>
 						<div className="flex flex-row justify-center items-center">
 							<button
