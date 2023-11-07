@@ -5,7 +5,7 @@ import type { TeamCardProps } from '@components/TeamCard';
 export const seniorData: TeamCardProps[] = [
 	{
 		username: 'Syeda Maheen',
-		avatar: '/senior/maheen2.jpg',
+		avatar: '/SrExecom23-24/maheen2.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -28,7 +28,7 @@ export const seniorData: TeamCardProps[] = [
 	},
 	{
 		username: 'Maleha Ansari',
-		avatar: '/senior/maleha.png',
+		avatar: '/SrExecom23-24/maleha.png',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -79,7 +79,7 @@ export const seniorData: TeamCardProps[] = [
 	},
 	{
 		username: 'Aaqeb Ahmed Nawaz',
-		avatar: '/senior/aaqeb2.jpeg',
+		avatar: '/SrExecom23-24/aaqeb2.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -102,7 +102,7 @@ export const seniorData: TeamCardProps[] = [
 	},
 	{
 		username: 'Mariyam Arshia',
-		avatar: '/senior/arshiya.jpg',
+		avatar: '/SrExecom23-24/arshiya.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -125,7 +125,7 @@ export const seniorData: TeamCardProps[] = [
 	},
 	{
 		username: 'Syed Zain Hussaini ',
-		avatar: '/senior/zain.jpeg',
+		avatar: '/SrExecom23-24/zain.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -151,7 +151,7 @@ export const seniorData: TeamCardProps[] = [
 export const leadData: TeamCardProps[] = [
 	{
 		username: 'Madiha Wahed',
-		avatar: '/core/hr1.jpeg',
+		avatar: '/JrExecom23-24/madiha.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -174,7 +174,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Mohammed Omer Waheed Khan',
-		avatar: '/junior/omer.jpeg',
+		avatar: '/JrExecom23-24/omer.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -197,7 +197,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Waasiuddin Siddiqui',
-		avatar: '/junior/wassiuddin.jpeg',
+		avatar: '/JrExecom23-24/wassiuddin.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -243,7 +243,7 @@ export const leadData: TeamCardProps[] = [
 	// },
 	{
 		username: 'Mohammed Faizullah Shareef ',
-		avatar: '/junior/faizullah.jpg',
+		avatar: '/JrExecom23-24/faizullah.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -266,7 +266,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Poorvi Reddy ',
-		avatar: '/core/smm1.jpg',
+		avatar: '/JrExecom23-24/poorvi2.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -290,7 +290,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Syed Ashfaque Hussain ',
-		avatar: '/junior/ashfaque.jpg',
+		avatar: '/JrExecom23-24/ashfaque.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -314,7 +314,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Aaryaraj Saxena ',
-		avatar: '/junior/aryaraj.jpg',
+		avatar: '/JrExecom23-24/aryaraj.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -337,7 +337,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Abdul Shafey Malik',
-		avatar: '/junior/shafey.jpg',
+		avatar: '/JrExecom23-24/shafey.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -360,7 +360,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Mohammed Abid Nafi',
-		avatar: '/junior/abid.jpeg',
+		avatar: '/JrExecom23-24/abid.jpeg',
 		socialMedia: [
 			{
 				icon: <FaGithub size={20} />,
@@ -389,7 +389,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Saima Qudrath Khan',
-		avatar: '/junior/saima.jpeg',
+		avatar: '/JrExecom23-24/saima.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -412,7 +412,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Syed Farooq Mohiuddin ',
-		avatar: '/junior/farooq.jpg',
+		avatar: '/JrExecom23-24/farooq.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -435,7 +435,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Aman Khan',
-		avatar: '/junior/aman.jpeg',
+		avatar: '/JrExecom23-24/aman.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -458,7 +458,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Syed Amer Shah',
-		avatar: '/junior/amer.jpeg',
+		avatar: '/JrExecom23-24/amer.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -481,7 +481,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Samiya Fatima',
-		avatar: '/junior/samiya2.jpeg',
+		avatar: '/JrExecom23-24/samiya2.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,

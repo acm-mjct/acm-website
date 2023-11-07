@@ -5,7 +5,7 @@ import type { TeamCardProps } from '@components/TeamCard';
 export const preseniorData: TeamCardProps[] = [
 	{
 		username: 'Madiha Siddique',
-		avatar: '/senior/madiha.jpg',
+		avatar: '/SrExecom2022-23/madiha.jpg',
 		socialMedia: [
 			{
 				icon: <FaTwitter size={20} />,
@@ -33,7 +33,7 @@ export const preseniorData: TeamCardProps[] = [
 	},
 	{
 		username: 'Haseeb Khan',
-		avatar: '/senior/has.webp',
+		avatar: '/SrExecom2022-23/has.webp',
 		socialMedia: [
 			{
 				icon: <FaTwitter size={20} />,
@@ -89,7 +89,7 @@ export const preseniorData: TeamCardProps[] = [
 	},
 	{
 		username: 'Maleha Ansari',
-		avatar: '/senior/maleha.png',
+		avatar: '/SrExecom2022-23/maleha.png',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -112,7 +112,7 @@ export const preseniorData: TeamCardProps[] = [
 	},
 	{
 		username: 'Maheen',
-		avatar: '/senior/maheen.png',
+		avatar: '/SrExecom2022-23/maheen.png',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -135,7 +135,7 @@ export const preseniorData: TeamCardProps[] = [
 	},
 	{
 		username: 'Maryum Urooj',
-		avatar: '/senior/urooj.jpeg',
+		avatar: '/SrExecom2022-23/urooj.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -185,7 +185,7 @@ export const preseniorData: TeamCardProps[] = [
 export const preleadData: TeamCardProps[] = [
 	{
 		username: 'Mariyam Arshia',
-		avatar: '/junior/arshiya.jpg',
+		avatar: '/JrExecom22-23/arshiya.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -208,7 +208,7 @@ export const preleadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Adeeb Abdul Taher',
-		avatar: '/junior/adeeb.jpg',
+		avatar: '/JrExecom22-23/adeeb.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -231,7 +231,7 @@ export const preleadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Masood Ahmed',
-		avatar: '/junior/masood.jpg',
+		avatar: '/JrExecom22-23/masood.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -254,7 +254,7 @@ export const preleadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Quazi Affan Ahmed',
-		avatar: '/junior/affan.jpg',
+		avatar: '/JrExecom22-23/affan.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -277,7 +277,7 @@ export const preleadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Yasir Hussain',
-		avatar: '/junior/yasir.jpeg',
+		avatar: '/JrExecom22-23/yasir.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -300,7 +300,7 @@ export const preleadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Anum Rida',
-		avatar: '/junior/anum.jpg',
+		avatar: '/JrExecom22-23/anum.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -324,7 +324,7 @@ export const preleadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Abdul Hadi',
-		avatar: '/junior/hadi.jpg',
+		avatar: '/JrExecom22-23/hadi.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -348,7 +348,7 @@ export const preleadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Juwairia Baig',
-		avatar: '/junior/baig.jpeg',
+		avatar: '/JrExecom22-23/baig.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -376,7 +376,7 @@ export const preleadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Aaqeb Ahmed',
-		avatar: '/senior/aaqeb2.jpeg',
+		avatar: '/JrExecom22-23/aaqeb2.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -399,7 +399,7 @@ export const preleadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Abdul Basith',
-		avatar: '/junior/ab.jpg',
+		avatar: '/JrExecom22-23/ab.jpg',
 		socialMedia: [
 			{
 				icon: <FaGithub size={20} />,
@@ -428,7 +428,7 @@ export const preleadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Asrar Ahmed',
-		avatar: '/junior/asrar.jpeg',
+		avatar: '/JrExecom22-23/asrar.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -451,7 +451,7 @@ export const preleadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Uzma Begum',
-		avatar: '/junior/uzma1.jpeg',
+		avatar: '/JrExecom22-23/uzma1.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -476,7 +476,7 @@ export const preleadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Syed Zain',
-		avatar: '/senior/zain.jpeg',
+		avatar: '/JrExecom22-23/zain.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -499,7 +499,7 @@ export const preleadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Waqas Faraz',
-		avatar: '/junior/far.jpg',
+		avatar: '/JrExecom22-23/far.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
