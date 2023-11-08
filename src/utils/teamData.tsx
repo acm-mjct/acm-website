@@ -60,7 +60,7 @@ export const seniorData: TeamCardProps[] = [
 			},
 			{
 				icon: <FaLinkedin size={20} />,
-				link: 'https://www.linkedin.com/in/syed-abdul-rahman-a87207201/',
+				link: 'https://www.linkedin.com/in/voxelli',
 				tooltip: 'Syed Abdul Rahman',
 			},
 			{
