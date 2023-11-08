@@ -16,10 +16,10 @@ export interface BadgeData {
 }
 
 export interface TeamCardProps {
-	avatar: string;
-	badges: BadgeData[];
-	socialMedia: SocialMediaData[];
-	username: string;
+	readonly avatar: string;
+	readonly badges: BadgeData[];
+	readonly socialMedia: SocialMediaData[];
+	readonly username: string;
 }
 
 export default function TeamCard({ username, avatar, socialMedia, badges }: TeamCardProps) {

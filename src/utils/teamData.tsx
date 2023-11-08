@@ -1,4 +1,4 @@
-import { FaCode, FaGithub, FaInstagramSquare, FaTwitter, FaLinkedin, FaBlog } from 'react-icons/fa';
+import { FaCode, FaGithub, FaInstagramSquare, FaLinkedin } from 'react-icons/fa';
 
 import type { TeamCardProps } from '@components/TeamCard';
 
@@ -145,7 +145,7 @@ export const seniorData: TeamCardProps[] = [
 				icon: <FaCode size={15} />,
 			},
 		],
-	}
+	},
 ];
 
 export const leadData: TeamCardProps[] = [

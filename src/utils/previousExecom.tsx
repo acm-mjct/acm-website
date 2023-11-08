@@ -180,7 +180,6 @@ export const preseniorData: TeamCardProps[] = [
 			},
 		],
 	},
-
 ];
 export const preleadData: TeamCardProps[] = [
 	{
