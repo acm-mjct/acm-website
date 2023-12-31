@@ -69,8 +69,6 @@ const ExecomPage = () => {
 						<TeamGroup teamData={teamData.seniorData} title="Senior Execom" />
 						<Divider className="w-full" />
 						<TeamGroup teamData={teamData.leadData} title="Junior Execom" />
-						<Divider className="w-full" />
-						<TeamGroup teamData={teamData.coreTeamData} title="Core Team" />
 					</div>
 				</motion.div>
 			</div>

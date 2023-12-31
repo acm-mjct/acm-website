@@ -183,7 +183,7 @@ export const leadData: TeamCardProps[] = [
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: 'https://instagram.com/omrrr.rr?igshid=OGQ5ZDc2ODk2ZA==',
+				link: 'https://instagram.com/omrrr.rr?igshid=OGQ5ZDc2ODk2ZA',
 				tooltip: 'Mohammed Omer Waheed Khan',
 			},
 		],
@@ -218,29 +218,7 @@ export const leadData: TeamCardProps[] = [
 			},
 		],
 	},
-	// {
-	// 	username: 'Quazi Affan Ahmed',
-	// 	avatar: '/junior/affan.jpg',
-	// 	socialMedia: [
-	// 		{
-	// 			icon: <FaLinkedin size={20} />,
-	// 			link: 'https://www.linkedin.com/in/quazi-affan-ahmad-15b6a221b',
-	// 			tooltip: 'Affan Ahmed',
-	// 		},
-	// 		{
-	// 			icon: <FaInstagramSquare size={20} />,
-	// 			link: 'https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png',
-	// 			tooltip: 'Affan Ahmed',
-	// 		},
-	// 	],
-	// 	badges: [
-	// 		{
-	// 			color: 'blue',
-	// 			text: 'Logistics',
-	// 			icon: <FaCode size={15} />,
-	// 		},
-	// 	],
-	// },
+
 	{
 		username: 'Mohammed Faizullah Shareef ',
 		avatar: '/JrExecom23-24/faizullah.jpg',
@@ -312,29 +290,7 @@ export const leadData: TeamCardProps[] = [
 			},
 		],
 	},
-	{
-		username: 'Aaryaraj Saxena ',
-		avatar: '/JrExecom23-24/aryaraj.jpg',
-		socialMedia: [
-			{
-				icon: <FaLinkedin size={20} />,
-				link: '',
-				tooltip: 'Aaryaraj Saxena ',
-			},
-			{
-				icon: <FaInstagramSquare size={20} />,
-				link: 'https://www.instagram.com/aaryarajsaxena/',
-				tooltip: 'Aaryaraj Saxena ',
-			},
-		],
-		badges: [
-			{
-				color: 'green',
-				text: 'Documentation',
-				icon: <FaCode size={15} />,
-			},
-		],
-	},
+
 	{
 		username: 'Abdul Shafey Malik',
 		avatar: '/JrExecom23-24/shafey.jpg',
@@ -353,7 +309,7 @@ export const leadData: TeamCardProps[] = [
 		badges: [
 			{
 				color: 'orange',
-				text: 'Tech ',
+				text: 'Tech',
 				icon: <FaCode size={15} />,
 			},
 		],
