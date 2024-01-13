@@ -24,7 +24,7 @@ export interface TeamCardProps {
 
 export default function TeamCard({ username, avatar, socialMedia, badges }: TeamCardProps) {
 	return (
-		<Card className="bg-true-dark-900" p="xl" radius="md" sx={{ width: 210 }} withBorder>
+		<Card className="bg-true-dark-900 h-[280px]" p="xl" radius="md" sx={{ width: 210 }} withBorder>
 			<Avatar alt={username} mx="auto" radius={80} size={80} src={avatar} />
 			<Text align="center" mt="sm" size="lg" weight={495}>
 				{username}
