@@ -173,47 +173,47 @@ export const seniorData: TeamCardProps[] = [
 
 export const leadData: TeamCardProps[] = [
 	{
-		username: 'Ayesha Saniya',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/hr1.jpg',
+		username: 'Raniya Farhan Shaikh',
+		avatar: '/JrExecom24-25/doc1.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: '',
-				tooltip: 'Ayesha Saniya',
+				tooltip: 'Raniya Farhan Shaikh',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
 				link: '',
-				tooltip: 'Ayesha Saniya',
+				tooltip: 'Raniya Farhan Shaikh',
 			},
 		],
 		badges: [
 			{
-				color: 'red',
-				text: 'Human Resources',
+				color: 'yellow',
+				text: 'Documentation ',
 				icon: <FaCode size={15} />,
 			},
 		],
 	},
 	{
-		username: 'Syeda Afifah Altaf',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/hr2.jpeg',
+		username: 'Saifuddin Syed',
+		avatar: '/JrExecom24-25/doc2.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: '',
-				tooltip: 'Syeda Afifah Altaf',
+				tooltip: 'Saifuddin Syed',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
 				link: '',
-				tooltip: 'Syeda Afifah Altaf',
+				tooltip: 'Saifuddin Syed',
 			},
 		],
 		badges: [
 			{
-				color: 'red',
-				text: 'Human Resources',
+				color: 'yellow',
+				text: 'Documentation ',
 				icon: <FaCode size={15} />,
 			},
 		],
@@ -407,52 +407,7 @@ export const leadData: TeamCardProps[] = [
 			},
 		],
 	},
-	{
-		username: 'Raniya Farhan Shaikh',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/doc1.jpeg',
-		socialMedia: [
-			{
-				icon: <FaLinkedin size={20} />,
-				link: '',
-				tooltip: 'Raniya Farhan Shaikh',
-			},
-			{
-				icon: <FaInstagramSquare size={20} />,
-				link: '',
-				tooltip: 'Raniya Farhan Shaikh',
-			},
-		],
-		badges: [
-			{
-				color: 'yellow',
-				text: 'Documentation ',
-				icon: <FaCode size={15} />,
-			},
-		],
-	},
-	{
-		username: 'Saifuddin Syed',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/doc2.jpg',
-		socialMedia: [
-			{
-				icon: <FaLinkedin size={20} />,
-				link: '',
-				tooltip: 'Saifuddin Syed',
-			},
-			{
-				icon: <FaInstagramSquare size={20} />,
-				link: '',
-				tooltip: 'Saifuddin Syed',
-			},
-		],
-		badges: [
-			{
-				color: 'yellow',
-				text: 'Documentation ',
-				icon: <FaCode size={15} />,
-			},
-		],
-	},
+	
 	{
 		username: 'Abdul Quader Furqan ',
 		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/media2.jpg',
@@ -633,6 +588,52 @@ export const leadData: TeamCardProps[] = [
 			{
 				color: 'pink',
 				text: 'Marketing',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	// {
+	// 	username: 'Ayesha Saniya',
+	// 	avatar: '/JrExecom24-25/hr1.jpg',
+	// 	socialMedia: [
+	// 		{
+	// 			icon: <FaLinkedin size={20} />,
+	// 			link: '',
+	// 			tooltip: 'Ayesha Saniya',
+	// 		},
+	// 		{
+	// 			icon: <FaInstagramSquare size={20} />,
+	// 			link: '',
+	// 			tooltip: 'Ayesha Saniya',
+	// 		},
+	// 	],
+	// 	badges: [
+	// 		{
+	// 			color: 'red',
+	// 			text: 'Human Resources',
+	// 			icon: <FaCode size={15} />,
+	// 		},
+	// 	],
+	// },
+	{
+		username: 'Syeda Afifah Altaf',
+		avatar: '/JrExecom24-25/hr2.jpeg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: '',
+				tooltip: 'Syeda Afifah Altaf',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: '',
+				tooltip: 'Syeda Afifah Altaf',
+			},
+		],
+		badges: [
+			{
+				color: 'red',
+				text: 'Human Resources',
 				icon: <FaCode size={15} />,
 			},
 		],
