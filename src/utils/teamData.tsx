@@ -102,7 +102,7 @@ export const seniorData: TeamCardProps[] = [
 	},
 	{
 		username: 'Mohammed Abdullah Shareef ',
-		avatar: 'https://iamniyaz.github.io/acm-website/SrExecom24-25/Gs.jpg',
+		avatar: '/SrExecom24-25/Gs.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -315,7 +315,7 @@ export const leadData: TeamCardProps[] = [
 	},
 
 	{
-		username: 'Zuhair Ahmed Khan Taha',
+		username: 'Zuhair ',
 		avatar: '/JrExecom24-25/tech3.jpg',
 		socialMedia: [
 			{
@@ -325,7 +325,7 @@ export const leadData: TeamCardProps[] = [
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: ' ',
+				link: '',
 				tooltip: 'Zuhair Ahmed Khan Taha',
 			},
 		],
