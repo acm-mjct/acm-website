@@ -24,9 +24,9 @@ export default function Footer() {
 								/>
 							</svg>
 
-							<a>Syeda Maheen:</a>
-							<a className="no-underline hover:underline" href="https://api.whatsapp.com/send?phone=919381837003">
-								+91 8106063590
+							<a>Syed Anas:</a>
+							<a className="no-underline hover:underline" href="https://api.whatsapp.com/send?phone=918978195337">
+								+91 8978195337
 							</a>
 						</div>
 						<div className="flex gap-2 justify-start items-center">
@@ -48,9 +48,9 @@ export default function Footer() {
 								/>
 							</svg>
 
-							<a>Maleha Ansari:</a>
-							<a className="no-underline hover:underline" href="https://api.whatsapp.com/send?phone=919381837003">
-								+91 9121776446
+							<a>Poorvi Reddy:</a>
+							<a className="no-underline hover:underline" href="https://api.whatsapp.com/send?phone=919573310419">
+								+91 9573310419
 							</a>
 						</div>
 						<div className="flex gap-2 pt-2 justify-start items-center">
@@ -91,8 +91,7 @@ export default function Footer() {
 
 			<div className="flex mx-auto max-w-[88rem] items-center justify-between lt-lg:flex-col lt-lg:flex-col-reverse lt-lg:gap-2">
 				<div className="text-sm pt-2 text-light-200">
-					ACM MJCET | &copy; All rights reserved | Developed with ❤️ ~{' '}
-					<a href="https://github.com/legendhimself">Voxelli</a>
+					ACM MJCET | &copy; All rights reserved 
 				</div>
 
 				<div className="flex pt-4 gap-4">

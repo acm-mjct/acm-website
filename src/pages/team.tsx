@@ -1,6 +1,7 @@
 import TeamGroup from '@components/TeamGroup';
 import { Divider } from '@mantine/core';
 import { preseniorData, preleadData } from '@utils/previousExecom';
+import { preseniorData22, preleadData22 } from '@utils/previousExecom22';
 import { coreTeamData, helperData, leadData, seniorData } from '@utils/teamData';
 import { variants } from '@utils/variants';
 import { motion } from 'framer-motion';
@@ -17,7 +18,9 @@ const ExecomPage = () => {
 		teamData = { seniorData, leadData, coreTeamData };
 	} else if (currentPage === 2) {
 		teamData = { seniorData: preseniorData, leadData: preleadData, coreTeamData: helperData };
-	} else {
+	} else if (currentPage === 3){
+		teamData = { seniorData: preseniorData22, leadData: preleadData22, coreTeamData: helperData };
+	} else  {
 		teamData = { seniorData, leadData, coreTeamData };
 	}
 
@@ -43,7 +46,7 @@ const ExecomPage = () => {
 								className="btn btn-primary"
 								onClick={() => {
 									setExecom('Current Execom');
-									setCurrentYear(new Date().getFullYear());
+									setCurrentYear(2_024);
 									setCurrentPage(1);
 								}}
 								type="button"
@@ -51,15 +54,26 @@ const ExecomPage = () => {
 								{'<'} Current Execom
 							</button>
 							<button
-								onClick={() => {
+								onClick={() => { if(currentPage===1){
+									setExecom('Previous Execom');
+									setCurrentYear(2_023);
+									setCurrentPage(2);
+								} else{
 									setExecom('Previous Execom');
 									setCurrentYear(2_022);
-									setCurrentPage(2);
-								}}
+									setCurrentPage(3);
+								}
+							}}
 								type="button"
+								
+									
 							>
 								Previous Execom {'>'}
 							</button>
+							
+
+
+
 						</div>
 						<Divider className="w-full" size={5} />
 					</div>

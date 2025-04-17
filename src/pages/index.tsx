@@ -9,7 +9,7 @@ export default function Home() {
 					className="absolute top-16 left-0 w-full h-94.5% object-cover"
 					loop
 					muted
-					poster="/thumb.jpg"
+					// poster="/thumb.jpg"
 					src="/homeVideo.webm"
 				/>
 			</div>

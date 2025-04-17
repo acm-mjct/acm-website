@@ -4,18 +4,18 @@ import type { TeamCardProps } from '@components/TeamCard';
 
 export const seniorData: TeamCardProps[] = [
 	{
-		username: 'Syeda Maheen',
-		avatar: '/SrExecom23-24/maheen2.jpg',
+		username: 'Syed Anas',
+		avatar: '/SrExecom24-25/chair.png',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
-				link: 'https://www.linkedin.com/in/syeda-maheen/',
-				tooltip: 'Syeda Maheen',
+				link: 'https://www.instagram.com/anassyed118/',
+				tooltip: 'Syed Anas',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: 'https://www.instagram.com/maaheeenx/',
-				tooltip: 'Syeda Maheen',
+				link: 'https://www.instagram.com/anassyed118/',
+				tooltip: 'Syed Anas',
 			},
 		],
 		badges: [
@@ -27,18 +27,18 @@ export const seniorData: TeamCardProps[] = [
 		],
 	},
 	{
-		username: 'Maleha Ansari',
-		avatar: '/SrExecom23-24/maleha.png',
+		username: 'Poorvi Reddy',
+		avatar: '/SrExecom24-25/vc.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
-				link: 'https://www.linkedin.com/in/maleha-ansari-035bc/',
-				tooltip: 'Maleha Ansari',
+				link: 'https://www.instagram.com/',
+				tooltip: 'Poorvi Reddy',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: 'https://www.instagram.com/maleha_07/',
-				tooltip: 'Maleha Ansari',
+				link: 'https://www.instagram.com/_poorvireddy_/',
+				tooltip: 'Poorvi Reddy',
 			},
 		],
 		badges: [
@@ -50,23 +50,23 @@ export const seniorData: TeamCardProps[] = [
 		],
 	},
 	{
-		username: 'Syed Abdul Rahman',
-		avatar: 'https://avatars.githubusercontent.com/u/69213593',
+		username: 'Shaik Niyaz Ahmed',
+		avatar: '/SrExecom24-25/techcaptain.jpg',
 		socialMedia: [
 			{
 				icon: <FaGithub size={20} />,
-				link: 'https://github.com/legendhimself',
-				tooltip: 'Syed Abdul Rahman',
+				link: 'https://github.com/Iamniyaz',
+				tooltip: 'Shaik Niyaz Ahmed',
 			},
 			{
 				icon: <FaLinkedin size={20} />,
-				link: 'https://www.linkedin.com/in/voxelli',
-				tooltip: 'Syed Abdul Rahman',
+				link: 'https://www.linkedin.com/in/shaik-niyaz-ahmed/',
+				tooltip: 'Shaik Niyaz Ahmed',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: 'https://www.instagram.com/s_a__rahman786/',
-				tooltip: 'Syed Abdul Rahman',
+				link: 'https://www.instagram.com/skniyaz_9/',
+				tooltip: 'Shaik Niyaz Ahmed',
 			},
 		],
 		badges: [
@@ -78,41 +78,41 @@ export const seniorData: TeamCardProps[] = [
 		],
 	},
 	{
-		username: 'Aaqeb Ahmed Nawaz',
-		avatar: '/SrExecom23-24/aaqeb2.jpeg',
+		username: 'Syed Farooq Mohiuddin',
+		avatar: '/SrExecom24-25/cr.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: 'https://www.linkedin.com/in/aaqeb-ahmed-nawaz-30441b215',
-				tooltip: 'Aaqeb Ahmed Nawaz',
+				tooltip: 'Syed Farooq Mohiuddin',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
 				link: 'https://www.instagram.com/aqnawaz_/',
-				tooltip: 'Aaqeb Ahmed Nawaz',
+				tooltip: 'Syed Farooq Mohiuddin',
 			},
 		],
 		badges: [
 			{
 				color: 'yellow',
-				text: 'Vice Tech Captain',
+				text: 'Chief Representative',
 				icon: <FaCode size={15} />,
 			},
 		],
 	},
 	{
-		username: 'Mariyam Arshia',
-		avatar: '/SrExecom23-24/arshiya.jpg',
+		username: 'Mohammed Abdullah Shareef ',
+		avatar: '/SrExecom24-25/Gs.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: 'https://www.linkedin.com/in/mariyam-arshia/',
-				tooltip: 'Mariyam Arshia',
+				tooltip: 'Mohammed Abdullah Shareef ',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
 				link: 'https://www.instagram.com/mariyammm__78/',
-				tooltip: 'Mariyam Arshia',
+				tooltip: 'Mohammed Abdullah Shareef ',
 			},
 		],
 		badges: [
@@ -124,18 +124,18 @@ export const seniorData: TeamCardProps[] = [
 		],
 	},
 	{
-		username: 'Syed Zain Hussaini ',
-		avatar: '/SrExecom23-24/zain.jpeg',
+		username: 'Waasiuddin Siddiqui ',
+		avatar: '/SrExecom24-25/treasurer.png',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: '',
-				tooltip: 'Syed Zain Hussaini',
+				tooltip: 'Waasiuddin Siddiqui ',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
 				link: 'https://www.instagram.com/_._zainnnn_._/',
-				tooltip: 'Syed Zain Hussaini',
+				tooltip: 'Waasiuddin Siddiqui ',
 			},
 		],
 		badges: [
@@ -146,298 +146,224 @@ export const seniorData: TeamCardProps[] = [
 			},
 		],
 	},
+	{
+		username: 'Mohammed Faizullah Shareef  ',
+		avatar: '/SrExecom24-25/advisor.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: '',
+				tooltip: 'Mohammed Faizullah Shareef',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://www.instagram.com/_._zainnnn_._/',
+				tooltip: 'Mohammed Faizullah Shareef ',
+			},
+		],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'advisor',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
 ];
 
 export const leadData: TeamCardProps[] = [
 	{
-		username: 'Madiha Wahed',
-		avatar: '/JrExecom23-24/madiha.jpeg',
+		username: 'Raniya Farhan Shaikh',
+		avatar: '/JrExecom24-25/doc1.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: '',
-				tooltip: 'Madiha Wahed',
+				tooltip: 'Raniya Farhan Shaikh',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: ' https://www.instagram.com/madiha_wahed/',
-				tooltip: 'Madiha Wahed',
+				link: '',
+				tooltip: 'Raniya Farhan Shaikh',
 			},
 		],
 		badges: [
 			{
-				color: 'red',
-				text: 'Human Resources',
+				color: 'yellow',
+				text: 'Documentation ',
 				icon: <FaCode size={15} />,
 			},
 		],
 	},
 	{
-		username: 'Mohammed Omer Waheed Khan',
-		avatar: '/JrExecom23-24/omer.jpeg',
+		username: 'Saifuddin Syed',
+		avatar: '/JrExecom24-25/doc2.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: '',
-				tooltip: 'Mohammed Omer Waheed Khan',
+				tooltip: 'Saifuddin Syed',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: 'https://instagram.com/omrrr.rr?igshid=OGQ5ZDc2ODk2ZA',
-				tooltip: 'Mohammed Omer Waheed Khan',
+				link: '',
+				tooltip: 'Saifuddin Syed',
 			},
 		],
 		badges: [
 			{
-				color: 'red',
-				text: 'Human Resources',
+				color: 'yellow',
+				text: 'Documentation ',
 				icon: <FaCode size={15} />,
 			},
 		],
 	},
 	{
-		username: 'Waasiuddin Siddiqui',
-		avatar: '/JrExecom23-24/wassiuddin.jpeg',
+		username: 'Humera Tabassum',
+		avatar: '/JrExecom24-25/design.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: '',
-				tooltip: 'Waasiuddin Siddiqui',
+				tooltip: 'Humera Tabassum',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: 'https://instagram.com/waasi987?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr',
-				tooltip: 'Waasiuddin Siddiqui',
+				link: '',
+				tooltip: 'Humera Tabassum',
 			},
 		],
 		badges: [
 			{
 				color: 'blue',
-				text: 'Logistics',
+				text: 'Design',
 				icon: <FaCode size={15} />,
 			},
 		],
 	},
 
 	{
-		username: 'Mohammed Faizullah Shareef ',
-		avatar: '/JrExecom23-24/faizullah.jpg',
-		socialMedia: [
-			{
-				icon: <FaLinkedin size={20} />,
-				link: 'https://www.linkedin.com/in/yasir-hussain-763200215',
-				tooltip: 'Mohammed Faizullah Shareef',
-			},
-			{
-				icon: <FaInstagramSquare size={20} />,
-				link: 'https://instagram.com/faiz_shareef7?igshid=OGQ5ZDc2ODk2ZA==',
-				tooltip: 'Mohammed Faizullah Shareef',
-			},
-		],
-		badges: [
-			{
-				color: 'grape',
-				text: 'Marketing',
-				icon: <FaCode size={15} />,
-			},
-		],
-	},
-	{
-		username: 'Poorvi Reddy ',
-		avatar: '/JrExecom23-24/poorvi2.jpg',
+		username: 'Ali Mohammed Lalani ',
+		avatar: '/JrExecom24-25/design2.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: '',
-
-				tooltip: 'Poorvi Reddy',
+				tooltip: 'Ali Mohammed Lalani ',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: 'https://instagram.com/_poorvireddy_?igshid=MzMyNGUyNmU2YQ==',
-				tooltip: 'Poorvi Reddy',
-			},
-		],
-		badges: [
-			{
-				color: 'grape',
-				text: 'Marketing',
-				icon: <FaCode size={15} />,
-			},
-		],
-	},
-	{
-		username: 'Syed Ashfaque Hussain ',
-		avatar: '/JrExecom23-24/ashfaque.jpg',
-		socialMedia: [
-			{
-				icon: <FaLinkedin size={20} />,
 				link: '',
-
-				tooltip: 'Syed Ashfaque Hussain ',
-			},
-			{
-				icon: <FaInstagramSquare size={20} />,
-				link: 'https://instagram.com/ashfaqhussain.10?igshid=OGQ5ZDc2ODk2ZA==',
-				tooltip: 'Syed Ashfaque Hussain ',
+				tooltip: 'Ali Mohammed Lalani ',
 			},
 		],
 		badges: [
 			{
-				color: 'green',
-				text: 'Documentation',
-				icon: <FaCode size={15} />,
-			},
-		],
-	},
-
-	{
-		username: 'Abdul Shafey Malik',
-		avatar: '/JrExecom23-24/shafey.jpg',
-		socialMedia: [
-			{
-				icon: <FaLinkedin size={20} />,
-				link: '',
-				tooltip: 'Abdul Shafey Malik',
-			},
-			{
-				icon: <FaInstagramSquare size={20} />,
-				link: 'https://www.instagram.com/@shafey_khwaab ',
-				tooltip: 'Abdul Shafey Malik',
-			},
-		],
-		badges: [
-			{
-				color: 'orange',
-				text: 'Tech',
-				icon: <FaCode size={15} />,
-			},
-		],
-	},
-	{
-		username: 'Mohammed Abid Nafi',
-		avatar: '/JrExecom23-24/abid.jpeg',
-		socialMedia: [
-			{
-				icon: <FaGithub size={20} />,
-				link: 'https://github.com/MohammedAbidNafi',
-				tooltip: 'Mohammed Abid Nafi',
-			},
-
-			{
-				icon: <FaLinkedin size={20} />,
-				link: '',
-				tooltip: 'Mohammed Abid Nafi',
-			},
-			{
-				icon: <FaInstagramSquare size={20} />,
-				link: 'https://instagram.com/md_abid_nafi',
-				tooltip: 'AB',
-			},
-		],
-		badges: [
-			{
-				color: 'orange',
-				text: 'Tech',
-				icon: <FaCode size={15} />,
-			},
-		],
-	},
-	{
-		username: 'Saima Qudrath Khan',
-		avatar: '/JrExecom23-24/saima.jpeg',
-		socialMedia: [
-			{
-				icon: <FaLinkedin size={20} />,
-				link: '',
-				tooltip: 'Saima Qudrath Khan',
-			},
-			{
-				icon: <FaInstagramSquare size={20} />,
-				link: 'https://instagram.com/Saimaqk_',
-				tooltip: 'Saima Qudrath Khan',
-			},
-		],
-		badges: [
-			{
-				color: 'violet',
+				color: 'blue',
 				text: 'Design',
 				icon: <FaCode size={15} />,
 			},
 		],
 	},
 	{
-		username: 'Syed Farooq Mohiuddin ',
-		avatar: '/JrExecom23-24/farooq.jpg',
+		username: 'Patan Ahmed Khan  ',
+		avatar: '/JrExecom24-25/tech1.png',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
 				link: '',
-				tooltip: 'Syed Farooq Mohiuddin ',
+
+				tooltip: 'Patan Ahmed Khan ',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: 'https://instagram.com/syed.fxrooq',
-				tooltip: 'Syed Farooq Mohiuddin ',
+				link: '',
+				tooltip: 'Patan Ahmed Khan ',
 			},
 		],
 		badges: [
 			{
-				color: 'yellow',
-				text: 'Digital Marketing',
+				color: 'grape',
+				text: 'Tech',
 				icon: <FaCode size={15} />,
 			},
 		],
 	},
 	{
-		username: 'Aman Khan',
-		avatar: '/JrExecom23-24/aman.jpeg',
+		username: 'Mohammed Salman',
+		avatar: '/JrExecom24-25/tech2.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
-				link: 'http://www.linkedin.com/in/syed-ashfaque-hussain-234129208',
-				tooltip: 'Aman Khan',
+				link: '',
+
+				tooltip: 'Mohammed Salman ',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: 'https://www.instagram.com/ __.amankhan___',
-				tooltip: 'Aman Khan',
+				link: '',
+				tooltip: 'Mohammed Salman',
 			},
 		],
 		badges: [
 			{
-				color: 'yellow',
-				text: 'Digital Marketing',
+				color: 'grape',
+				text: 'Tech',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+
+	{
+		username: 'Zuhair ',
+		avatar: '/JrExecom24-25/tech3.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: '',
+				tooltip: 'Zuhair Ahmed Khan Taha',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: '',
+				tooltip: 'Zuhair Ahmed Khan Taha',
+			},
+		],
+		badges: [
+			{
+				color: 'grape',
+				text: 'Tech',
 				icon: <FaCode size={15} />,
 			},
 		],
 	},
 	{
-		username: 'Syed Amer Shah',
-		avatar: '/JrExecom23-24/amer.jpeg',
+		username: 'Afrah Ayesha',
+		avatar: '/JrExecom24-25/event1.png',
 		socialMedia: [
+			
 			{
 				icon: <FaLinkedin size={20} />,
 				link: '',
-				tooltip: 'Syed Amer Shah',
+				tooltip: 'Afrah Ayesha',
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: 'https://instagram.com/amx.3r?igshid=NGVhN2U2NjQ0Yg==',
-				tooltip: 'Syed Amer Shah',
+				link: '',
+				tooltip: 'AA',
 			},
 		],
 		badges: [
 			{
-				color: 'cyan',
-				text: 'Media',
+				color: 'orange',
+				text: 'Events',
 				icon: <FaCode size={15} />,
 			},
 		],
 	},
 	{
 		username: 'Samiya Fatima',
-		avatar: '/JrExecom23-24/samiya2.jpeg',
+		avatar: '/JrExecom24-25/event2.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -446,14 +372,268 @@ export const leadData: TeamCardProps[] = [
 			},
 			{
 				icon: <FaInstagramSquare size={20} />,
-				link: 'https://instagram.com/_shadowshutter__',
+				link: '',
 				tooltip: 'Samiya Fatima',
 			},
 		],
 		badges: [
 			{
+				color: 'orange',
+				text: 'Events',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Mohammed Anasullah Shareef ',
+		avatar: '/JrExecom24-25/event3.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: '',
+				tooltip: 'Mohammed Anasullah Shareef ',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: '',
+				tooltip: 'Mohammed Anasullah Shareef ',
+			},
+		],
+		badges: [
+			{
+				color: 'orange',
+				text: 'Events',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	
+	{
+		username: 'Abdul Quader Furqan ',
+		avatar: '/JrExecom24-25/media2.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: '',
+				tooltip: '',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: '',
+				tooltip: '',
+			},
+		],
+		badges: [
+			{
 				color: 'cyan',
-				text: 'Media',
+				text: 'Media & Content Creation',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Qhuba tarannum',
+		avatar: '/JrExecom24-25/media3.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: '',
+				tooltip: '',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: '',
+				tooltip: '',
+			},
+		],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Media & Content Creation',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Salman Ahmed Ansari',
+		avatar: '/JrExecom24-25/media1.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: '',
+				tooltip: 'Salman Ahmed Ansari',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: 'https://instagram.com/_shadowshutter__',
+				tooltip: 'Salman Ahmed Ansari',
+			},
+		],
+		badges: [
+			{
+				color: 'cyan',
+				text: 'Media & Content Creation',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Riyan Ozair ',
+		avatar: '/JrExecom24-25/ops1.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: '',
+				tooltip: '',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: '',
+				tooltip: '',
+			},
+		],
+		badges: [
+			{
+				color: 'violet',
+				text: 'Operations',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Mohammed Nabeel Rizwan  ',
+		avatar: '/JrExecom24-25/ops2.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: '',
+				tooltip: '',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: '',
+				tooltip: '',
+			},
+		],
+		badges: [
+			{
+				color: 'violet',
+				text: 'Operations',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Raza Mohammed ',
+		avatar: '/JrExecom24-25/mar1.jpeg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: '',
+				tooltip: '',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: '',
+				tooltip: '',
+			},
+		],
+		badges: [
+			{
+				color: 'pink',
+				text: 'Marketing',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Haseeb Al Salafi  ',
+		avatar: '/JrExecom24-25/mar2.png',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: '',
+				tooltip: '',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: '',
+				tooltip: '',
+			},
+		],
+		badges: [
+			{
+				color: 'pink',
+				text: 'Marketing',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	{
+		username: 'Shaheer Ahmed Qadeer  ',
+		avatar: '/JrExecom24-25/mar3.jpg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: '',
+				tooltip: '',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: '',
+				tooltip: '',
+			},
+		],
+		badges: [
+			{
+				color: 'pink',
+				text: 'Marketing',
+				icon: <FaCode size={15} />,
+			},
+		],
+	},
+	// {
+	// 	username: 'Ayesha Saniya',
+	// 	avatar: '/JrExecom24-25/hr1.jpg',
+	// 	socialMedia: [
+	// 		{
+	// 			icon: <FaLinkedin size={20} />,
+	// 			link: '',
+	// 			tooltip: 'Ayesha Saniya',
+	// 		},
+	// 		{
+	// 			icon: <FaInstagramSquare size={20} />,
+	// 			link: '',
+	// 			tooltip: 'Ayesha Saniya',
+	// 		},
+	// 	],
+	// 	badges: [
+	// 		{
+	// 			color: 'red',
+	// 			text: 'Human Resources',
+	// 			icon: <FaCode size={15} />,
+	// 		},
+	// 	],
+	// },
+	{
+		username: 'Syeda Afifah Altaf',
+		avatar: '/JrExecom24-25/hr2.jpeg',
+		socialMedia: [
+			{
+				icon: <FaLinkedin size={20} />,
+				link: '',
+				tooltip: 'Syeda Afifah Altaf',
+			},
+			{
+				icon: <FaInstagramSquare size={20} />,
+				link: '',
+				tooltip: 'Syeda Afifah Altaf',
+			},
+		],
+		badges: [
+			{
+				color: 'red',
+				text: 'Human Resources',
 				icon: <FaCode size={15} />,
 			},
 		],
