@@ -5,7 +5,7 @@ import type { TeamCardProps } from '@components/TeamCard';
 export const seniorData: TeamCardProps[] = [
 	{
 		username: 'Syed Anas',
-		avatar: 'https://iamniyaz.github.io/acm-website/SrExecom24-25/chair.png',
+		avatar: '/SrExecom24-25/chair.png',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -28,7 +28,7 @@ export const seniorData: TeamCardProps[] = [
 	},
 	{
 		username: 'Poorvi Reddy',
-		avatar: 'https://iamniyaz.github.io/acm-website/SrExecom24-25/vc.jpg',
+		avatar: '/SrExecom24-25/vc.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -51,7 +51,7 @@ export const seniorData: TeamCardProps[] = [
 	},
 	{
 		username: 'Shaik Niyaz Ahmed',
-		avatar: 'https://iamniyaz.github.io/acm-website/SrExecom24-25/techcaptain.jpg',
+		avatar: '/SrExecom24-25/techcaptain.jpg',
 		socialMedia: [
 			{
 				icon: <FaGithub size={20} />,
@@ -79,7 +79,7 @@ export const seniorData: TeamCardProps[] = [
 	},
 	{
 		username: 'Syed Farooq Mohiuddin',
-		avatar: 'https://iamniyaz.github.io/acm-website/SrExecom24-25/cr.jpg',
+		avatar: '/SrExecom24-25/cr.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -125,7 +125,7 @@ export const seniorData: TeamCardProps[] = [
 	},
 	{
 		username: 'Waasiuddin Siddiqui ',
-		avatar: 'https://iamniyaz.github.io/acm-website/SrExecom24-25/treasurer.png',
+		avatar: '/SrExecom24-25/treasurer.png',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -148,7 +148,7 @@ export const seniorData: TeamCardProps[] = [
 	},
 	{
 		username: 'Mohammed Faizullah Shareef  ',
-		avatar: 'https://iamniyaz.github.io/acm-website/SrExecom24-25/advisor.jpg',
+		avatar: '/SrExecom24-25/advisor.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -220,7 +220,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Humera Tabassum',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/design.jpg',
+		avatar: '/JrExecom24-25/design.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -244,7 +244,7 @@ export const leadData: TeamCardProps[] = [
 
 	{
 		username: 'Ali Mohammed Lalani ',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/design2.jpg',
+		avatar: '/JrExecom24-25/design2.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -267,7 +267,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Patan Ahmed Khan  ',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/tech1.png',
+		avatar: '/JrExecom24-25/tech1.png',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -291,7 +291,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Mohammed Salman',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/tech2.jpg',
+		avatar: '/JrExecom24-25/tech2.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -316,7 +316,7 @@ export const leadData: TeamCardProps[] = [
 
 	{
 		username: 'Zuhair Ahmed Khan Taha',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/tech3.jpg',
+		avatar: '/JrExecom24-25/tech3.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -339,7 +339,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Afrah Ayesha',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/event1.png',
+		avatar: '/JrExecom24-25/event1.png',
 		socialMedia: [
 			
 			{
@@ -363,7 +363,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Samiya Fatima',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/event2.jpeg',
+		avatar: '/JrExecom24-25/event2.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -386,7 +386,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Mohammed Anasullah Shareef ',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/event3.jpg',
+		avatar: '/JrExecom24-25/event3.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -410,7 +410,7 @@ export const leadData: TeamCardProps[] = [
 	
 	{
 		username: 'Abdul Quader Furqan ',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/media2.jpg',
+		avatar: '/JrExecom24-25/media2.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -433,7 +433,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Qhuba tarannum',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/media3.jpg',
+		avatar: '/JrExecom24-25/media3.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -456,7 +456,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Salman Ahmed Ansari',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/media1.jpg',
+		avatar: '/JrExecom24-25/media1.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -479,7 +479,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Riyan Ozair ',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/ops1.jpg',
+		avatar: '/JrExecom24-25/ops1.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -502,7 +502,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Mohammed Nabeel Rizwan  ',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/ops2.jpg',
+		avatar: '/JrExecom24-25/ops2.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -525,7 +525,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Raza Mohammed ',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/mar1.jpeg',
+		avatar: '/JrExecom24-25/mar1.jpeg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -548,7 +548,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Haseeb Al Salafi  ',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/mar2.png',
+		avatar: '/JrExecom24-25/mar2.png',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,
@@ -571,7 +571,7 @@ export const leadData: TeamCardProps[] = [
 	},
 	{
 		username: 'Shaheer Ahmed Qadeer  ',
-		avatar: 'https://iamniyaz.github.io/acm-website/JrExecom24-25/mar3.jpg',
+		avatar: '/JrExecom24-25/mar3.jpg',
 		socialMedia: [
 			{
 				icon: <FaLinkedin size={20} />,

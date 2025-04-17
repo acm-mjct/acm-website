@@ -1,7 +1,7 @@
 export default function About() {
 	return (
 		<div className="mt-10 flex justify-center items-center lt-lg:flex-col-reverse lt-lg:px-10 gap-10 w-full" id="about">
-			<video autoPlay className="object-cover" loop muted poster="https://iamniyaz.github.io/acm-website/thumb.jpg" src="https://iamniyaz.github.io/acm-website/about.mp4" />
+			<video autoPlay className="object-cover" loop muted poster="/thumb.jpg" src="/about.mp4" />
 			<div className="flex flex-col justify-center items-start gap-6">
 				<h1 className="text-4xl font-bold text-white">About Us</h1>
 				<p className="text-white">
